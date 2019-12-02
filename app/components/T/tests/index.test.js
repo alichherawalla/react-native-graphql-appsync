@@ -2,8 +2,6 @@
  *
  * Tests for T
  *
- * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
- *
  */
 
 /* global shallowWithIntl */

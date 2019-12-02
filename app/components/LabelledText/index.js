@@ -17,8 +17,8 @@ function LabelledText({ labelId = '', value = null }) {
   return (
     <If condition={!!value}>
       <View testID="labelled-text" style={styles.labelledView}>
-        <T id={labelId} size="small" weight="bold" />
-        <T text={value} size="small" weight="bold" />
+        <T id={labelId} size="small" />
+        <T text={value} size="small" />
       </View>
     </If>
   )

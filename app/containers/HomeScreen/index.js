@@ -89,8 +89,8 @@ const styles = StyleSheet.create({
 HomeScreen.propTypes = {
   fetchEmployeeData: PropTypes.func,
   intl: PropTypes.object,
-  employeeData: PropTypes.object,
-  loadingEmployeeData: PropTypes.object
+  employeeData: PropTypes.array,
+  loadingEmployeeData: PropTypes.bool
 }
 
 const mapStateToProps = createStructuredSelector({

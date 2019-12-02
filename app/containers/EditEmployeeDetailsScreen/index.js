@@ -18,7 +18,6 @@ import TextInput from 'app/components/TextInput'
 import PropTypes from 'prop-types'
 import isString from 'lodash/isString'
 import { getAppBarWithBack } from 'app/components/AppBar'
-import T from 'app/components/T'
 import Divider from 'app/components/Divider'
 import makeSelectEditEmployeeDetailsScreen from './selectors'
 import { EditEmployeeDetailsScreenCreators } from './reducer'
@@ -100,8 +99,6 @@ export function EditEmployeeDetailsScreen({
         })
       )}
       <ScrollView style={styles.container}>
-        <T size="regular" weight="bold" id="employee_details" />
-        <Divider />
         <TextInput
           mode="outlined"
           label={intl.formatMessage({ id: 'first_name' })}

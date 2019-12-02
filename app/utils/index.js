@@ -17,12 +17,10 @@ export const rnFontSizeAdapter = type => ({
 })
 
 export const rnFontWeightAdapter = type => ({
-  fontSize: parseInt(
-    fonts.weights[type]()[0]
-      .replace('font-weight: ', '')
-      .trim(),
-    10
-  )
+  fontWeight: fonts.weights[type]()[0]
+    .replace('font-weight: ', '')
+    .replace(';', '')
+    .trim()
 })
 
 export const NEW_EMPLOYEE = {

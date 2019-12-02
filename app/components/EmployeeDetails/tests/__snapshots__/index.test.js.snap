@@ -478,40 +478,6 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#000000",
-                "fontFamily": "System",
-                "fontWeight": "400",
-                "textAlign": "left",
-              },
-              Object {
-                "fontSize": NaN,
-              },
-            ]
-          }
-          testID="t"
-        >
-          Employee Details
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "rgba(0, 0, 0, 0.12)",
-                "height": 0.5,
-              },
-              undefined,
-              Object {
-                "marginHorizontal": 0,
-                "marginVertical": 10,
-              },
-            ]
-          }
-          testID="divider"
-        />
         <View
           style={
             Object {
@@ -531,7 +497,8 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                   "textAlign": "left",
                 },
                 Object {
-                  "fontSize": NaN,
+                  "fontSize": 14,
+                  "fontWeight": "normal",
                 },
               ]
             }
@@ -549,7 +516,8 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                   "textAlign": "left",
                 },
                 Object {
-                  "fontSize": NaN,
+                  "fontSize": 14,
+                  "fontWeight": "normal",
                 },
               ]
             }
@@ -577,7 +545,8 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                   "textAlign": "left",
                 },
                 Object {
-                  "fontSize": NaN,
+                  "fontSize": 14,
+                  "fontWeight": "normal",
                 },
               ]
             }
@@ -595,7 +564,8 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                   "textAlign": "left",
                 },
                 Object {
-                  "fontSize": NaN,
+                  "fontSize": 14,
+                  "fontWeight": "normal",
                 },
               ]
             }

@@ -69,8 +69,6 @@ function EmployeeDetails({
     <Container testID="employee-details">
       {renderBackMenuWithDeleteAndEdit()}
       <ScrollView style={styles.container}>
-        <T size="regular" weight="bold" id="employee_details" />
-        <Divider />
         <LabelledText labelId="first_name" value={get(employee, 'firstname')} />
         <LabelledText labelId="last_name" value={get(employee, 'lastname')} />
 
@@ -109,30 +107,33 @@ const styles = StyleSheet.create({
 })
 EmployeeDetails.propTypes = {
   intl: PropTypes.object,
-  navigation: PropTypes.object,
-  state: PropTypes.object,
-  params: PropTypes.object,
-  handleEmployeeDelete: PropTypes.func,
-  employee: PropTypes.shape({
-    id: PropTypes.string,
-    firstname: PropTypes.string,
-    lastname: PropTypes.string,
-    address: PropTypes.arrayOf(
-      PropTypes.shape({
-        line1: PropTypes.string,
-        line2: PropTypes.string,
-        city: PropTypes.string,
-        state: PropTypes.string,
-        zipcode: PropTypes.string
-      })
-    ),
-    skills: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.string,
-        name: PropTypes.string
-      })
-    )
-  }).isRequired
+  navigation: PropTypes.shape({
+    state: {
+      params: {
+        employee: PropTypes.shape({
+          id: PropTypes.string,
+          firstname: PropTypes.string,
+          lastname: PropTypes.string,
+          address: PropTypes.arrayOf(
+            PropTypes.shape({
+              line1: PropTypes.string,
+              line2: PropTypes.string,
+              city: PropTypes.string,
+              state: PropTypes.string,
+              zipcode: PropTypes.string
+            })
+          ),
+          skills: PropTypes.arrayOf(
+            PropTypes.shape({
+              id: PropTypes.string,
+              name: PropTypes.string
+            })
+          )
+        })
+      }
+    }
+  }),
+  handleEmployeeDelete: PropTypes.func
 }
 
 EmployeeDetails.defaultProps = {
