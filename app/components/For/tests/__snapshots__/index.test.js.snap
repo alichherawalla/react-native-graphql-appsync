@@ -37,6 +37,7 @@ exports[`<For /> should render and match the snapshot 1`] = `
               "textAlign": "left",
             },
             Object {
+              "color": undefined,
               "fontSize": 14,
               "fontWeight": "normal",
             },

@@ -12,11 +12,20 @@ import { Text } from 'react-native-paper'
 import { StyleSheet } from 'react-native'
 import { rnFontSizeAdapter, rnFontWeightAdapter } from 'app/utils'
 
-const T = ({ intl, id, values, text, size = 'small', weight = 'normal' }) => {
+const T = ({
+  intl,
+  id,
+  values,
+  text,
+  size = 'small',
+  weight = 'normal',
+  color
+}) => {
   const styles = StyleSheet.create({
     text: {
       ...rnFontSizeAdapter(size),
-      ...rnFontWeightAdapter(weight)
+      ...rnFontWeightAdapter(weight),
+      color
     }
   })
   text = text || intl.formatMessage({ id }, { ...values })
@@ -33,7 +42,8 @@ T.propTypes = {
   values: PropTypes.object,
   size: PropTypes.string,
   weight: PropTypes.string,
-  text: PropTypes.string
+  text: PropTypes.string,
+  color: PropTypes.string
 }
 
 export default compose(injectIntl)(T)

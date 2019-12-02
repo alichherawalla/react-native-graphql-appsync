@@ -41,8 +41,9 @@ export const getAppBarWithMenu = (title, rightItems = []) => (
 function AppBar({ title, leftItems, rightItems }) {
   const renderAppBarAction = items => (
     <For
+      style={styles.title}
       flexDirection="row"
-      parent={<View />}
+      parent={<View style={styles.title} />}
       of={items}
       renderItem={item => (
         <Appbar.Action color="white" icon={item.type} onPress={item.onPress} />
@@ -52,8 +53,10 @@ function AppBar({ title, leftItems, rightItems }) {
 
   return (
     <Appbar.Header style={styles.appbar} testID="app-bar">
-      {renderAppBarAction(leftItems)}
-      <Appbar.Content title={title} />
+      <View style={styles.title}>
+        {renderAppBarAction(leftItems)}
+        <Appbar.Content title={title} />
+      </View>
       {renderAppBarAction(rightItems)}
     </Appbar.Header>
   )
@@ -67,11 +70,16 @@ AppBar.propTypes = {
 
 const styles = StyleSheet.create({
   appbar: {
-    display: 'flex',
-    justifyContent: 'space-between'
+    display: 'flex'
   },
   icon: {
     color: 'white'
+  },
+  title: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center'
   }
 })
 
