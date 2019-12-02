@@ -1,0 +1,15 @@
+{
+  "auth": {
+    "buildopsassignment070faa17": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
+  },
+  "storage": {
+    "FileUpload": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

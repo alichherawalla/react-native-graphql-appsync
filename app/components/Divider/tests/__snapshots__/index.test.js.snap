@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Divider /> should render and match the snapshot 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "height": 0.5,
+          },
+          undefined,
+          Object {
+            "marginHorizontal": 0,
+            "marginVertical": 10,
+          },
+        ]
+      }
+      testID="divider"
+    />
+  </View>
+</View>
+`;

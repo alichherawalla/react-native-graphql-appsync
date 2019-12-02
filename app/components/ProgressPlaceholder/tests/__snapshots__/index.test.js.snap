@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressPlaceholder /> should render and match the snapshot 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          Object {
+            "display": "flex",
+            "flex": 1,
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+      testID="progress-placeholder"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 255, 0.38)",
+              "height": 4,
+              "opacity": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "blue",
+                "flex": 1,
+                "transform": Array [
+                  Object {
+                    "translateX": -0,
+                  },
+                  Object {
+                    "scaleX": 0.0001,
+                  },
+                ],
+                "width": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+              },
+              Object {
+                "color": "#d3d3d3",
+                "fontSize": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        />
+      </View>
+    </SafeAreaView>
+  </View>
+</View>
+`;

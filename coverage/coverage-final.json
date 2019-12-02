@@ -1,0 +1,4852 @@
+{
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/app.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/app.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 12, "column": 0 },
+        "end": { "line": 12, "column": 28 }
+      },
+      "1": {
+        "start": { "line": 14, "column": 29 },
+        "end": { "line": 14, "column": 42 }
+      },
+      "2": {
+        "start": { "line": 16, "column": 12 },
+        "end": { "line": 26, "column": 1 }
+      },
+      "3": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 25, "column": 13 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 16, "column": 12 },
+          "end": { "line": 16, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 2 },
+          "end": { "line": 25, "column": 13 }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1, "1": 1, "2": 1, "3": 1 },
+    "f": { "0": 1 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "4062353ffabe71def6b39ba4ce18e9f8fd5943e1"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/aws-exports.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/aws-exports.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 3, "column": 18 },
+        "end": { "line": 18, "column": 1 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 1 },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "50f2e2049545b94890e2adf76a9cce25c7ec04fc"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/i18n.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/i18n.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 10, "column": 22 },
+        "end": { "line": 10, "column": 57 }
+      },
+      "1": {
+        "start": { "line": 12, "column": 21 },
+        "end": { "line": 12, "column": 57 }
+      },
+      "2": {
+        "start": { "line": 14, "column": 30 },
+        "end": { "line": 14, "column": 63 }
+      },
+      "3": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 27 }
+      },
+      "4": {
+        "start": { "line": 18, "column": 30 },
+        "end": { "line": 18, "column": 34 }
+      },
+      "5": {
+        "start": { "line": 21, "column": 26 },
+        "end": { "line": 23, "column": 1 }
+      },
+      "6": {
+        "start": { "line": 25, "column": 41 },
+        "end": { "line": 38, "column": 1 }
+      },
+      "7": {
+        "start": { "line": 27, "column": 4 },
+        "end": { "line": 29, "column": 10 }
+      },
+      "8": {
+        "start": { "line": 30, "column": 35 },
+        "end": { "line": 36, "column": 3 }
+      },
+      "9": {
+        "start": { "line": 32, "column": 6 },
+        "end": { "line": 34, "column": 23 }
+      },
+      "10": {
+        "start": { "line": 35, "column": 4 },
+        "end": { "line": 35, "column": 72 }
+      },
+      "11": {
+        "start": { "line": 37, "column": 2 },
+        "end": { "line": 37, "column": 67 }
+      },
+      "12": {
+        "start": { "line": 40, "column": 35 },
+        "end": { "line": 42, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 25, "column": 41 },
+          "end": { "line": 25, "column": 42 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 63 },
+          "end": { "line": 38, "column": 1 }
+        },
+        "line": 25
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 30, "column": 35 },
+          "end": { "line": 30, "column": 36 }
+        },
+        "loc": {
+          "start": { "line": 30, "column": 63 },
+          "end": { "line": 36, "column": 3 }
+        },
+        "line": 30
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 27, "column": 4 },
+          "end": { "line": 29, "column": 10 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 28, "column": 8 },
+            "end": { "line": 28, "column": 72 }
+          },
+          {
+            "start": { "line": 29, "column": 8 },
+            "end": { "line": 29, "column": 10 }
+          }
+        ],
+        "line": 27
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 32, "column": 6 },
+          "end": { "line": 34, "column": 23 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 33, "column": 10 },
+            "end": { "line": 33, "column": 39 }
+          },
+          {
+            "start": { "line": 34, "column": 10 },
+            "end": { "line": 34, "column": 23 }
+          }
+        ],
+        "line": 32
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 32, "column": 6 },
+          "end": { "line": 32, "column": 49 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 32, "column": 6 },
+            "end": { "line": 32, "column": 20 }
+          },
+          {
+            "start": { "line": 32, "column": 24 },
+            "end": { "line": 32, "column": 49 }
+          }
+        ],
+        "line": 32
+      }
+    },
+    "s": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16,
+      "7": 19,
+      "8": 19,
+      "9": 277,
+      "10": 277,
+      "11": 19,
+      "12": 16
+    },
+    "f": { "0": 19, "1": 277 },
+    "b": { "0": [1, 18], "1": [1, 276], "2": [277, 1] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "bbbbc6f458b010f164fb306b4be0cc3f319d951b"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/rootReducer.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/rootReducer.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 9, "column": 22 },
+        "end": { "line": 13, "column": 4 }
+      },
+      "1": {
+        "start": { "line": 15, "column": 2 },
+        "end": { "line": 15, "column": 46 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 8, "column": 15 },
+          "end": { "line": 8, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 8, "column": 21 },
+          "end": { "line": 16, "column": 1 }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 6, "1": 6 },
+    "f": { "0": 6 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "7d69d8b8271b3b0f42e1ebbfd3f21b8578fd3f24"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/rootSaga.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/rootSaga.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 8, "column": 2 },
+        "end": { "line": 8, "column": 22 }
+      },
+      "1": {
+        "start": { "line": 9, "column": 2 },
+        "end": { "line": 9, "column": 25 }
+      },
+      "2": {
+        "start": { "line": 10, "column": 2 },
+        "end": { "line": 10, "column": 37 }
+      },
+      "3": {
+        "start": { "line": 11, "column": 2 },
+        "end": { "line": 11, "column": 28 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "root",
+        "decl": {
+          "start": { "line": 7, "column": 25 },
+          "end": { "line": 7, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 32 },
+          "end": { "line": 12, "column": 1 }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 6, "1": 6, "2": 6, "3": 6 },
+    "f": { "0": 6 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "b8d4eca6834eff8edab493c6a3af7f09708d0748"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/assets/images/velotio_logo.png": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/assets/images/velotio_logo.png",
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 4, "column": 6 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 16 },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "a6207025cd5193ab150b2a66a6bbdbfe0280bcac"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/AppBar/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/AppBar/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 16, "column": 33 },
+        "end": { "line": 27, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 26, "column": 4 }
+      },
+      "2": {
+        "start": { "line": 29, "column": 33 },
+        "end": { "line": 40, "column": 1 }
+      },
+      "3": {
+        "start": { "line": 30, "column": 2 },
+        "end": { "line": 39, "column": 4 }
+      },
+      "4": {
+        "start": { "line": 43, "column": 29 },
+        "end": { "line": 52, "column": 3 }
+      },
+      "5": {
+        "start": { "line": 44, "column": 4 },
+        "end": { "line": 51, "column": 6 }
+      },
+      "6": {
+        "start": { "line": 49, "column": 8 },
+        "end": { "line": 49, "column": 79 }
+      },
+      "7": {
+        "start": { "line": 54, "column": 2 },
+        "end": { "line": 60, "column": 3 }
+      },
+      "8": {
+        "start": { "line": 63, "column": 0 },
+        "end": { "line": 67, "column": 1 }
+      },
+      "9": {
+        "start": { "line": 69, "column": 15 },
+        "end": { "line": 77, "column": 2 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 16, "column": 33 },
+          "end": { "line": 16, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 2 },
+          "end": { "line": 26, "column": 4 }
+        },
+        "line": 17
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 29, "column": 33 },
+          "end": { "line": 29, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 30, "column": 2 },
+          "end": { "line": 39, "column": 4 }
+        },
+        "line": 30
+      },
+      "2": {
+        "name": "AppBar",
+        "decl": {
+          "start": { "line": 42, "column": 9 },
+          "end": { "line": 42, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 42, "column": 50 },
+          "end": { "line": 61, "column": 1 }
+        },
+        "line": 42
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 43, "column": 29 },
+          "end": { "line": 43, "column": 30 }
+        },
+        "loc": {
+          "start": { "line": 44, "column": 4 },
+          "end": { "line": 51, "column": 6 }
+        },
+        "line": 44
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 48, "column": 18 },
+          "end": { "line": 48, "column": 19 }
+        },
+        "loc": {
+          "start": { "line": 49, "column": 8 },
+          "end": { "line": 49, "column": 79 }
+        },
+        "line": 49
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 16, "column": 41 },
+          "end": { "line": 16, "column": 56 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 16, "column": 54 },
+            "end": { "line": 16, "column": 56 }
+          }
+        ],
+        "line": 16
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 29, "column": 41 },
+          "end": { "line": 29, "column": 56 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 29, "column": 54 },
+            "end": { "line": 29, "column": 56 }
+          }
+        ],
+        "line": 29
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 4,
+      "2": 6,
+      "3": 2,
+      "4": 8,
+      "5": 16,
+      "6": 11,
+      "7": 8,
+      "8": 6,
+      "9": 6
+    },
+    "f": { "0": 4, "1": 2, "2": 8, "3": 16, "4": 11 },
+    "b": { "0": [1], "1": [2] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "5f9bade8b070e3cf3c89a60dc059f5e468ef73ad"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/Container/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/Container/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 11, "column": 24 },
+        "end": { "line": 13, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 14, "column": 18 },
+        "end": { "line": 14, "column": 66 }
+      },
+      "2": {
+        "start": { "line": 14, "column": 36 },
+        "end": { "line": 14, "column": 66 }
+      },
+      "3": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 24 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 14, "column": 18 },
+          "end": { "line": 14, "column": 19 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 36 },
+          "end": { "line": 14, "column": 66 }
+        },
+        "line": 14
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 9, "1": 9, "2": 11, "3": 9 },
+    "f": { "0": 11 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "574ac3a346c51d73c978efb01d56289ff5d0e8e9"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/Divider/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/Divider/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 13, "column": 17 },
+        "end": { "line": 15, "column": 4 }
+      },
+      "1": {
+        "start": { "line": 16, "column": 2 },
+        "end": { "line": 16, "column": 54 }
+      },
+      "2": {
+        "start": { "line": 19, "column": 0 },
+        "end": { "line": 22, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Divider",
+        "decl": {
+          "start": { "line": 12, "column": 9 },
+          "end": { "line": 12, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 12, "column": 64 },
+          "end": { "line": 17, "column": 1 }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 12, "column": 19 },
+          "end": { "line": 12, "column": 38 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 12, "column": 36 },
+            "end": { "line": 12, "column": 38 }
+          }
+        ],
+        "line": 12
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 12, "column": 40 },
+          "end": { "line": 12, "column": 60 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 12, "column": 59 },
+            "end": { "line": 12, "column": 60 }
+          }
+        ],
+        "line": 12
+      }
+    },
+    "s": { "0": 11, "1": 11, "2": 5 },
+    "f": { "0": 11 },
+    "b": { "0": [11], "1": [11] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "53685c507d61e2bdf7100f65752b64e9f26640d8"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/EmployeeDetails/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/EmployeeDetails/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 33, "column": 26 },
+        "end": { "line": 42, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 34, "column": 4 },
+        "end": { "line": 41, "column": 11 }
+      },
+      "2": {
+        "start": { "line": 44, "column": 23 },
+        "end": { "line": 49, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 45, "column": 4 },
+        "end": { "line": 48, "column": 11 }
+      },
+      "4": {
+        "start": { "line": 51, "column": 42 },
+        "end": { "line": 66, "column": 6 }
+      },
+      "5": {
+        "start": { "line": 52, "column": 4 },
+        "end": { "line": 66, "column": 6 }
+      },
+      "6": {
+        "start": { "line": 56, "column": 10 },
+        "end": { "line": 59, "column": 12 }
+      },
+      "7": {
+        "start": { "line": 64, "column": 22 },
+        "end": { "line": 64, "column": 45 }
+      },
+      "8": {
+        "start": { "line": 68, "column": 2 },
+        "end": { "line": 102, "column": 3 }
+      },
+      "9": {
+        "start": { "line": 105, "column": 15 },
+        "end": { "line": 109, "column": 2 }
+      },
+      "10": {
+        "start": { "line": 110, "column": 0 },
+        "end": { "line": 136, "column": 1 }
+      },
+      "11": {
+        "start": { "line": 138, "column": 0 },
+        "end": { "line": 140, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "EmployeeDetails",
+        "decl": {
+          "start": { "line": 24, "column": 9 },
+          "end": { "line": 24, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 32, "column": 3 },
+          "end": { "line": 103, "column": 1 }
+        },
+        "line": 32
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 33, "column": 26 },
+          "end": { "line": 33, "column": 27 }
+        },
+        "loc": {
+          "start": { "line": 34, "column": 4 },
+          "end": { "line": 41, "column": 11 }
+        },
+        "line": 34
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 44, "column": 23 },
+          "end": { "line": 44, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 45, "column": 4 },
+          "end": { "line": 48, "column": 11 }
+        },
+        "line": 45
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 51, "column": 42 },
+          "end": { "line": 51, "column": 43 }
+        },
+        "loc": {
+          "start": { "line": 52, "column": 4 },
+          "end": { "line": 66, "column": 6 }
+        },
+        "line": 52
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 55, "column": 17 },
+          "end": { "line": 55, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 55, "column": 23 },
+          "end": { "line": 60, "column": 9 }
+        },
+        "line": 55
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 64, "column": 17 },
+          "end": { "line": 64, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 64, "column": 22 },
+          "end": { "line": 64, "column": 45 }
+        },
+        "line": 64
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 139, "column": 24 },
+          "end": { "line": 139, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 139, "column": 30 },
+          "end": { "line": 139, "column": 32 }
+        },
+        "line": 139
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 2,
+      "3": 0,
+      "4": 2,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2
+    },
+    "f": { "0": 2, "1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "b3bcd7e15b1689b04e8541f3b777f810de9c8506"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/For/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/For/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 21, "column": 17 },
+        "end": { "line": 21, "column": 77 }
+      },
+      "1": {
+        "start": { "line": 22, "column": 15 },
+        "end": { "line": 23, "column": 73 }
+      },
+      "2": {
+        "start": { "line": 23, "column": 4 },
+        "end": { "line": 23, "column": 73 }
+      },
+      "3": {
+        "start": { "line": 23, "column": 29 },
+        "end": { "line": 23, "column": 71 }
+      },
+      "4": {
+        "start": { "line": 24, "column": 19 },
+        "end": { "line": 26, "column": 3 }
+      },
+      "5": {
+        "start": { "line": 25, "column": 4 },
+        "end": { "line": 25, "column": 82 }
+      },
+      "6": {
+        "start": { "line": 27, "column": 2 },
+        "end": { "line": 27, "column": 46 }
+      },
+      "7": {
+        "start": { "line": 30, "column": 0 },
+        "end": { "line": 36, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "For",
+        "decl": {
+          "start": { "line": 14, "column": 16 },
+          "end": { "line": 14, "column": 19 }
+        },
+        "loc": {
+          "start": { "line": 20, "column": 3 },
+          "end": { "line": 28, "column": 1 }
+        },
+        "line": 20
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 22, "column": 15 },
+          "end": { "line": 22, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 23, "column": 4 },
+          "end": { "line": 23, "column": 73 }
+        },
+        "line": 23
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 23, "column": 11 },
+          "end": { "line": 23, "column": 12 }
+        },
+        "loc": {
+          "start": { "line": 23, "column": 29 },
+          "end": { "line": 23, "column": 71 }
+        },
+        "line": 23
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 24, "column": 19 },
+          "end": { "line": 24, "column": 20 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 4 },
+          "end": { "line": 25, "column": 82 }
+        },
+        "line": 25
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 16, "column": 2 },
+          "end": { "line": 16, "column": 24 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 16, "column": 20 },
+            "end": { "line": 16, "column": 24 }
+          }
+        ],
+        "line": 16
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 18, "column": 2 },
+          "end": { "line": 18, "column": 26 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 18, "column": 18 },
+            "end": { "line": 18, "column": 26 }
+          }
+        ],
+        "line": 18
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 19, "column": 2 },
+          "end": { "line": 19, "column": 16 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 19, "column": 15 },
+            "end": { "line": 19, "column": 16 }
+          }
+        ],
+        "line": 19
+      },
+      "3": {
+        "loc": {
+          "start": { "line": 27, "column": 9 },
+          "end": { "line": 27, "column": 46 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 27, "column": 29 },
+            "end": { "line": 27, "column": 39 }
+          },
+          {
+            "start": { "line": 27, "column": 42 },
+            "end": { "line": 27, "column": 46 }
+          }
+        ],
+        "line": 27
+      },
+      "4": {
+        "loc": {
+          "start": { "line": 27, "column": 10 },
+          "end": { "line": 27, "column": 18 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 27, "column": 10 },
+            "end": { "line": 27, "column": 12 }
+          },
+          {
+            "start": { "line": 27, "column": 16 },
+            "end": { "line": 27, "column": 18 }
+          }
+        ],
+        "line": 27
+      }
+    },
+    "s": {
+      "0": 18,
+      "1": 18,
+      "2": 11,
+      "3": 13,
+      "4": 18,
+      "5": 11,
+      "6": 18,
+      "7": 7
+    },
+    "f": { "0": 18, "1": 11, "2": 13, "3": 11 },
+    "b": { "0": [18], "1": [2], "2": [18], "3": [11, 7], "4": [18, 4] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "d1326cd1b1b3d59535202474db0fb849ed9a9b3e"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/If/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/If/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 10, "column": 2 },
+        "end": { "line": 10, "column": 59 }
+      },
+      "1": {
+        "start": { "line": 13, "column": 0 },
+        "end": { "line": 23, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 24, "column": 0 },
+        "end": { "line": 26, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "If",
+        "decl": {
+          "start": { "line": 9, "column": 9 },
+          "end": { "line": 9, "column": 11 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 19 },
+          "end": { "line": 11, "column": 1 }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 10, "column": 9 },
+          "end": { "line": 10, "column": 59 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 10, "column": 27 },
+            "end": { "line": 10, "column": 41 }
+          },
+          {
+            "start": { "line": 10, "column": 44 },
+            "end": { "line": 10, "column": 59 }
+          }
+        ],
+        "line": 10
+      }
+    },
+    "s": { "0": 14, "1": 7, "2": 7 },
+    "f": { "0": 14 },
+    "b": { "0": [8, 6] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "cfa8c57c95566161242aa086669a69a5b1be5f48"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/LabelledText/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/LabelledText/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 24, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 26, "column": 15 },
+        "end": { "line": 31, "column": 2 }
+      },
+      "2": {
+        "start": { "line": 32, "column": 0 },
+        "end": { "line": 35, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "LabelledText",
+        "decl": {
+          "start": { "line": 16, "column": 9 },
+          "end": { "line": 16, "column": 21 }
+        },
+        "loc": {
+          "start": { "line": 16, "column": 54 },
+          "end": { "line": 25, "column": 1 }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 16, "column": 24 },
+          "end": { "line": 16, "column": 36 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 16, "column": 34 },
+            "end": { "line": 16, "column": 36 }
+          }
+        ],
+        "line": 16
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 16, "column": 38 },
+          "end": { "line": 16, "column": 50 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 16, "column": 46 },
+            "end": { "line": 16, "column": 50 }
+          }
+        ],
+        "line": 16
+      }
+    },
+    "s": { "0": 6, "1": 3, "2": 3 },
+    "f": { "0": 6 },
+    "b": { "0": [0], "1": [0] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "953cc29a2f07ba2dd1b75c31d827c00e4e3026d2"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/ProgressPlaceholder/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/ProgressPlaceholder/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 26, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 29, "column": 15 },
+        "end": { "line": 40, "column": 2 }
+      },
+      "2": {
+        "start": { "line": 41, "column": 0 },
+        "end": { "line": 44, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ProgressPlaceholder",
+        "decl": {
+          "start": { "line": 16, "column": 9 },
+          "end": { "line": 16, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 16, "column": 56 },
+          "end": { "line": 27, "column": 1 }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 4, "1": 3, "2": 3 },
+    "f": { "0": 4 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "1d0ae98fb380b4ed47706a2c0a06747d60fdac4a"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/SplashScreen/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/SplashScreen/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 8, "column": 18 },
+        "end": { "line": 12, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 14, "column": 13 },
+        "end": { "line": 20, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 22, "column": 21 },
+        "end": { "line": 32, "column": 1 }
+      },
+      "3": {
+        "start": { "line": 23, "column": 2 },
+        "end": { "line": 25, "column": 8 }
+      },
+      "4": {
+        "start": { "line": 24, "column": 4 },
+        "end": { "line": 24, "column": 54 }
+      },
+      "5": {
+        "start": { "line": 27, "column": 2 },
+        "end": { "line": 31, "column": 3 }
+      },
+      "6": {
+        "start": { "line": 34, "column": 0 },
+        "end": { "line": 36, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 22, "column": 21 },
+          "end": { "line": 22, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 22, "column": 41 },
+          "end": { "line": 32, "column": 1 }
+        },
+        "line": 22
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 23, "column": 12 },
+          "end": { "line": 23, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 23, "column": 18 },
+          "end": { "line": 25, "column": 3 }
+        },
+        "line": 23
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 2, "1": 2, "2": 2, "3": 2, "4": 1, "5": 2, "6": 2 },
+    "f": { "0": 2, "1": 1 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "500a1dfff0be10f4a1e0eb54d229d231c6687aee"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/T/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/T/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 15, "column": 10 },
+        "end": { "line": 28, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 16, "column": 17 },
+        "end": { "line": 21, "column": 4 }
+      },
+      "2": {
+        "start": { "line": 22, "column": 2 },
+        "end": { "line": 22, "column": 58 }
+      },
+      "3": {
+        "start": { "line": 23, "column": 2 },
+        "end": { "line": 27, "column": 3 }
+      },
+      "4": {
+        "start": { "line": 30, "column": 0 },
+        "end": { "line": 37, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 15, "column": 10 },
+          "end": { "line": 15, "column": 11 }
+        },
+        "loc": {
+          "start": { "line": 15, "column": 77 },
+          "end": { "line": 28, "column": 1 }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 15, "column": 37 },
+          "end": { "line": 15, "column": 51 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 15, "column": 44 },
+            "end": { "line": 15, "column": 51 }
+          }
+        ],
+        "line": 15
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 15, "column": 53 },
+          "end": { "line": 15, "column": 70 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 15, "column": 62 },
+            "end": { "line": 15, "column": 70 }
+          }
+        ],
+        "line": 15
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 22, "column": 9 },
+          "end": { "line": 22, "column": 58 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 22, "column": 9 },
+            "end": { "line": 22, "column": 13 }
+          },
+          {
+            "start": { "line": 22, "column": 17 },
+            "end": { "line": 22, "column": 58 }
+          }
+        ],
+        "line": 22
+      }
+    },
+    "s": { "0": 8, "1": 18, "2": 18, "3": 18, "4": 8 },
+    "f": { "0": 18 },
+    "b": { "0": [3], "1": [3], "2": [18, 10] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "6baaf9e0de5fb5789bd41f79d0eafa31153a8007"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/components/TextInput/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/components/TextInput/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 18, "column": 17 },
+        "end": { "line": 23, "column": 4 }
+      },
+      "1": {
+        "start": { "line": 24, "column": 2 },
+        "end": { "line": 24, "column": 88 }
+      },
+      "2": {
+        "start": { "line": 27, "column": 0 },
+        "end": { "line": 31, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "TextInput",
+        "decl": {
+          "start": { "line": 12, "column": 9 },
+          "end": { "line": 12, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 3 },
+          "end": { "line": 25, "column": 1 }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 13, "column": 2 },
+          "end": { "line": 13, "column": 22 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 13, "column": 21 },
+            "end": { "line": 13, "column": 22 }
+          }
+        ],
+        "line": 13
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 14, "column": 2 },
+          "end": { "line": 14, "column": 20 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 14, "column": 19 },
+            "end": { "line": 14, "column": 20 }
+          }
+        ],
+        "line": 14
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 15, "column": 2 },
+          "end": { "line": 15, "column": 19 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 15, "column": 9 },
+            "end": { "line": 15, "column": 19 }
+          }
+        ],
+        "line": 15
+      }
+    },
+    "s": { "0": 4, "1": 4, "2": 3 },
+    "f": { "0": 4 },
+    "b": { "0": [4], "1": [4], "2": [3] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "d12da2b96e79a8b4c604c086aded93462dff2490"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 36, "column": 34 },
+        "end": { "line": 36, "column": 45 }
+      },
+      "1": {
+        "start": { "line": 38, "column": 27 },
+        "end": { "line": 49, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 39, "column": 26 },
+        "end": { "line": 39, "column": 41 }
+      },
+      "3": {
+        "start": { "line": 40, "column": 4 },
+        "end": { "line": 47, "column": 5 }
+      },
+      "4": {
+        "start": { "line": 42, "column": 6 },
+        "end": { "line": 42, "column": 62 }
+      },
+      "5": {
+        "start": { "line": 43, "column": 11 },
+        "end": { "line": 47, "column": 5 }
+      },
+      "6": {
+        "start": { "line": 44, "column": 6 },
+        "end": { "line": 44, "column": 49 }
+      },
+      "7": {
+        "start": { "line": 46, "column": 6 },
+        "end": { "line": 46, "column": 37 }
+      },
+      "8": {
+        "start": { "line": 48, "column": 4 },
+        "end": { "line": 48, "column": 30 }
+      },
+      "9": {
+        "start": { "line": 50, "column": 26 },
+        "end": { "line": 83, "column": 3 }
+      },
+      "10": {
+        "start": { "line": 51, "column": 25 },
+        "end": { "line": 52, "column": 57 }
+      },
+      "11": {
+        "start": { "line": 52, "column": 6 },
+        "end": { "line": 52, "column": 57 }
+      },
+      "12": {
+        "start": { "line": 53, "column": 4 },
+        "end": { "line": 82, "column": 5 }
+      },
+      "13": {
+        "start": { "line": 58, "column": 32 },
+        "end": { "line": 58, "column": 59 }
+      },
+      "14": {
+        "start": { "line": 63, "column": 32 },
+        "end": { "line": 63, "column": 59 }
+      },
+      "15": {
+        "start": { "line": 68, "column": 32 },
+        "end": { "line": 68, "column": 58 }
+      },
+      "16": {
+        "start": { "line": 73, "column": 32 },
+        "end": { "line": 73, "column": 59 }
+      },
+      "17": {
+        "start": { "line": 78, "column": 32 },
+        "end": { "line": 78, "column": 61 }
+      },
+      "18": {
+        "start": { "line": 85, "column": 23 },
+        "end": { "line": 94, "column": 3 }
+      },
+      "19": {
+        "start": { "line": 86, "column": 4 },
+        "end": { "line": 93, "column": 11 }
+      },
+      "20": {
+        "start": { "line": 90, "column": 30 },
+        "end": { "line": 90, "column": 77 }
+      },
+      "21": {
+        "start": { "line": 95, "column": 2 },
+        "end": { "line": 156, "column": 3 }
+      },
+      "22": {
+        "start": { "line": 109, "column": 32 },
+        "end": { "line": 109, "column": 79 }
+      },
+      "23": {
+        "start": { "line": 114, "column": 32 },
+        "end": { "line": 114, "column": 78 }
+      },
+      "24": {
+        "start": { "line": 144, "column": 10 },
+        "end": { "line": 148, "column": 11 }
+      },
+      "25": {
+        "start": { "line": 145, "column": 12 },
+        "end": { "line": 145, "column": 39 }
+      },
+      "26": {
+        "start": { "line": 147, "column": 12 },
+        "end": { "line": 147, "column": 39 }
+      },
+      "27": {
+        "start": { "line": 159, "column": 0 },
+        "end": { "line": 186, "column": 1 }
+      },
+      "28": {
+        "start": { "line": 187, "column": 15 },
+        "end": { "line": 194, "column": 2 }
+      },
+      "29": {
+        "start": { "line": 195, "column": 24 },
+        "end": { "line": 197, "column": 2 }
+      },
+      "30": {
+        "start": { "line": 200, "column": 2 },
+        "end": { "line": 205, "column": 3 }
+      },
+      "31": {
+        "start": { "line": 202, "column": 6 },
+        "end": { "line": 202, "column": 78 }
+      },
+      "32": {
+        "start": { "line": 204, "column": 6 },
+        "end": { "line": 204, "column": 78 }
+      },
+      "33": {
+        "start": { "line": 208, "column": 20 },
+        "end": { "line": 208, "column": 64 }
+      },
+      "34": {
+        "start": { "line": 212, "column": 45 },
+        "end": { "line": 214, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "EditEmployeeDetailsScreen",
+        "decl": {
+          "start": { "line": 26, "column": 16 },
+          "end": { "line": 26, "column": 41 }
+        },
+        "loc": {
+          "start": { "line": 35, "column": 3 },
+          "end": { "line": 157, "column": 1 }
+        },
+        "line": 35
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 38, "column": 27 },
+          "end": { "line": 38, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 38, "column": 60 },
+          "end": { "line": 49, "column": 3 }
+        },
+        "line": 38
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 50, "column": 26 },
+          "end": { "line": 50, "column": 27 }
+        },
+        "loc": {
+          "start": { "line": 50, "column": 46 },
+          "end": { "line": 83, "column": 3 }
+        },
+        "line": 50
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 51, "column": 25 },
+          "end": { "line": 51, "column": 26 }
+        },
+        "loc": {
+          "start": { "line": 52, "column": 6 },
+          "end": { "line": 52, "column": 57 }
+        },
+        "line": 52
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 58, "column": 24 },
+          "end": { "line": 58, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 58, "column": 32 },
+          "end": { "line": 58, "column": 59 }
+        },
+        "line": 58
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 63, "column": 24 },
+          "end": { "line": 63, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 63, "column": 32 },
+          "end": { "line": 63, "column": 59 }
+        },
+        "line": 63
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 68, "column": 24 },
+          "end": { "line": 68, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 68, "column": 32 },
+          "end": { "line": 68, "column": 58 }
+        },
+        "line": 68
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": { "line": 73, "column": 24 },
+          "end": { "line": 73, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 73, "column": 32 },
+          "end": { "line": 73, "column": 59 }
+        },
+        "line": 73
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": { "line": 78, "column": 24 },
+          "end": { "line": 78, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 78, "column": 32 },
+          "end": { "line": 78, "column": 61 }
+        },
+        "line": 78
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": { "line": 85, "column": 23 },
+          "end": { "line": 85, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 86, "column": 4 },
+          "end": { "line": 93, "column": 11 }
+        },
+        "line": 86
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": { "line": 90, "column": 22 },
+          "end": { "line": 90, "column": 23 }
+        },
+        "loc": {
+          "start": { "line": 90, "column": 30 },
+          "end": { "line": 90, "column": 77 }
+        },
+        "line": 90
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": { "line": 109, "column": 24 },
+          "end": { "line": 109, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 109, "column": 32 },
+          "end": { "line": 109, "column": 79 }
+        },
+        "line": 109
+      },
+      "12": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": { "line": 114, "column": 24 },
+          "end": { "line": 114, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 114, "column": 32 },
+          "end": { "line": 114, "column": 78 }
+        },
+        "line": 114
+      },
+      "13": {
+        "name": "(anonymous_13)",
+        "decl": {
+          "start": { "line": 142, "column": 17 },
+          "end": { "line": 142, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 142, "column": 23 },
+          "end": { "line": 149, "column": 9 }
+        },
+        "line": 142
+      },
+      "14": {
+        "name": "mapDispatchToProps",
+        "decl": {
+          "start": { "line": 199, "column": 9 },
+          "end": { "line": 199, "column": 27 }
+        },
+        "loc": {
+          "start": { "line": 199, "column": 38 },
+          "end": { "line": 206, "column": 1 }
+        },
+        "line": 199
+      },
+      "15": {
+        "name": "(anonymous_15)",
+        "decl": {
+          "start": { "line": 201, "column": 23 },
+          "end": { "line": 201, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 202, "column": 6 },
+          "end": { "line": 202, "column": 78 }
+        },
+        "line": 202
+      },
+      "16": {
+        "name": "(anonymous_16)",
+        "decl": {
+          "start": { "line": 203, "column": 23 },
+          "end": { "line": 203, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 204, "column": 6 },
+          "end": { "line": 204, "column": 78 }
+        },
+        "line": 204
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 40, "column": 4 },
+          "end": { "line": 47, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 40, "column": 4 },
+            "end": { "line": 47, "column": 5 }
+          },
+          {
+            "start": { "line": 40, "column": 4 },
+            "end": { "line": 47, "column": 5 }
+          }
+        ],
+        "line": 40
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 43, "column": 11 },
+          "end": { "line": 47, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 43, "column": 11 },
+            "end": { "line": 47, "column": 5 }
+          },
+          {
+            "start": { "line": 43, "column": 11 },
+            "end": { "line": 47, "column": 5 }
+          }
+        ],
+        "line": 43
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 99, "column": 14 },
+          "end": { "line": 99, "column": 60 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 99, "column": 26 },
+            "end": { "line": 99, "column": 40 }
+          },
+          {
+            "start": { "line": 99, "column": 43 },
+            "end": { "line": 99, "column": 60 }
+          }
+        ],
+        "line": 99
+      },
+      "3": {
+        "loc": {
+          "start": { "line": 144, "column": 10 },
+          "end": { "line": 148, "column": 11 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 144, "column": 10 },
+            "end": { "line": 148, "column": 11 }
+          },
+          {
+            "start": { "line": 144, "column": 10 },
+            "end": { "line": 148, "column": 11 }
+          }
+        ],
+        "line": 144
+      },
+      "4": {
+        "loc": {
+          "start": { "line": 153, "column": 34 },
+          "end": { "line": 153, "column": 65 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 153, "column": 46 },
+            "end": { "line": 153, "column": 54 }
+          },
+          {
+            "start": { "line": 153, "column": 57 },
+            "end": { "line": 153, "column": 65 }
+          }
+        ],
+        "line": 153
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 1,
+      "19": 0,
+      "20": 0,
+      "21": 1,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 2,
+      "28": 2,
+      "29": 2,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 2,
+      "34": 2
+    },
+    "f": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0
+    },
+    "b": { "0": [0, 0], "1": [0, 0], "2": [0, 1], "3": [0, 0], "4": [0, 1] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "07ea9dfc212bd8bf4955913dea31136505673d1e"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/reducer.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 10, "column": 28 },
+        "end": { "line": 10, "column": 38 }
+      },
+      "1": {
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 22, "column": 2 }
+      },
+      "2": {
+        "start": { "line": 25, "column": 48 },
+        "end": { "line": 38, "column": 4 }
+      },
+      "3": {
+        "start": { "line": 29, "column": 2 },
+        "end": { "line": 38, "column": 4 }
+      },
+      "4": {
+        "start": { "line": 30, "column": 4 },
+        "end": { "line": 37, "column": 5 }
+      },
+      "5": {
+        "start": { "line": 32, "column": 8 },
+        "end": { "line": 32, "column": 61 }
+      },
+      "6": {
+        "start": { "line": 34, "column": 8 },
+        "end": { "line": 34, "column": 61 }
+      },
+      "7": {
+        "start": { "line": 36, "column": 8 },
+        "end": { "line": 36, "column": 20 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 25, "column": 48 },
+          "end": { "line": 25, "column": 49 }
+        },
+        "loc": {
+          "start": { "line": 29, "column": 2 },
+          "end": { "line": 38, "column": 4 }
+        },
+        "line": 29
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 29, "column": 17 },
+          "end": { "line": 29, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 29, "column": 34 },
+          "end": { "line": 38, "column": 3 }
+        },
+        "line": 29
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 26, "column": 2 },
+          "end": { "line": 26, "column": 22 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 26, "column": 10 },
+            "end": { "line": 26, "column": 22 }
+          }
+        ],
+        "line": 26
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 30, "column": 4 },
+          "end": { "line": 37, "column": 5 }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": { "line": 31, "column": 6 },
+            "end": { "line": 32, "column": 61 }
+          },
+          {
+            "start": { "line": 33, "column": 6 },
+            "end": { "line": 34, "column": 61 }
+          },
+          {
+            "start": { "line": 35, "column": 6 },
+            "end": { "line": 36, "column": 20 }
+          }
+        ],
+        "line": 30
+      }
+    },
+    "s": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 28,
+      "4": 28,
+      "5": 0,
+      "6": 0,
+      "7": 28
+    },
+    "f": { "0": 28, "1": 28 },
+    "b": { "0": [19], "1": [0, 0, 28] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "bda4d93a9f78c6c26ad5a717c97c180261745114"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/saga.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/saga.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 9, "column": 33 },
+        "end": { "line": 9, "column": 63 }
+      },
+      "1": {
+        "start": { "line": 12, "column": 19 },
+        "end": { "line": 15, "column": 4 }
+      },
+      "2": {
+        "start": { "line": 18, "column": 2 },
+        "end": { "line": 37, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 19, "column": 21 },
+        "end": { "line": 19, "column": 29 }
+      },
+      "4": {
+        "start": { "line": 20, "column": 4 },
+        "end": { "line": 20, "column": 29 }
+      },
+      "5": {
+        "start": { "line": 22, "column": 22 },
+        "end": { "line": 29, "column": 6 }
+      },
+      "6": {
+        "start": { "line": 30, "column": 4 },
+        "end": { "line": 30, "column": 66 }
+      },
+      "7": {
+        "start": { "line": 32, "column": 4 },
+        "end": { "line": 36, "column": 5 }
+      },
+      "8": {
+        "start": { "line": 41, "column": 2 },
+        "end": { "line": 41, "column": 59 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "createNewEmployee",
+        "decl": {
+          "start": { "line": 11, "column": 17 },
+          "end": { "line": 11, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 49 },
+          "end": { "line": 38, "column": 1 }
+        },
+        "line": 11
+      },
+      "1": {
+        "name": "EditEmployeeDetailsScreenSaga",
+        "decl": {
+          "start": { "line": 40, "column": 25 },
+          "end": { "line": 40, "column": 54 }
+        },
+        "loc": {
+          "start": { "line": 40, "column": 57 },
+          "end": { "line": 42, "column": 1 }
+        },
+        "line": 40
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 18, "column": 2 },
+          "end": { "line": 37, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 18, "column": 2 },
+            "end": { "line": 37, "column": 3 }
+          },
+          {
+            "start": { "line": 18, "column": 2 },
+            "end": { "line": 37, "column": 3 }
+          }
+        ],
+        "line": 18
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 7
+    },
+    "f": { "0": 0, "1": 7 },
+    "b": { "0": [0, 0] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "a78c2dc2985c17ce9eacfca0790a4dd04fde6e6a"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/selectors.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/EditEmployeeDetailsScreen/selectors.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 8, "column": 46 },
+        "end": { "line": 9, "column": 58 }
+      },
+      "1": {
+        "start": { "line": 9, "column": 2 },
+        "end": { "line": 9, "column": 58 }
+      },
+      "2": {
+        "start": { "line": 19, "column": 44 },
+        "end": { "line": 20, "column": 77 }
+      },
+      "3": {
+        "start": { "line": 20, "column": 2 },
+        "end": { "line": 20, "column": 77 }
+      },
+      "4": {
+        "start": { "line": 20, "column": 68 },
+        "end": { "line": 20, "column": 76 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 8, "column": 46 },
+          "end": { "line": 8, "column": 47 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 2 },
+          "end": { "line": 9, "column": 58 }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 19, "column": 44 },
+          "end": { "line": 19, "column": 45 }
+        },
+        "loc": {
+          "start": { "line": 20, "column": 2 },
+          "end": { "line": 20, "column": 77 }
+        },
+        "line": 20
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 20, "column": 56 },
+          "end": { "line": 20, "column": 57 }
+        },
+        "loc": {
+          "start": { "line": 20, "column": 68 },
+          "end": { "line": 20, "column": 76 }
+        },
+        "line": 20
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 9, "column": 3 },
+          "end": { "line": 9, "column": 50 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 9, "column": 3 },
+            "end": { "line": 9, "column": 34 }
+          },
+          {
+            "start": { "line": 9, "column": 38 },
+            "end": { "line": 9, "column": 50 }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": { "0": 3, "1": 1, "2": 3, "3": 2, "4": 0 },
+    "f": { "0": 1, "1": 2, "2": 0 },
+    "b": { "0": [1, 1] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "90a5aeb823cdb7e2529791f13aaebabf9675b842"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 25, "column": 2 },
+        "end": { "line": 27, "column": 8 }
+      },
+      "1": {
+        "start": { "line": 26, "column": 4 },
+        "end": { "line": 26, "column": 16 }
+      },
+      "2": {
+        "start": { "line": 28, "column": 21 },
+        "end": { "line": 32, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 29, "column": 21 },
+        "end": { "line": 30, "column": 41 }
+      },
+      "4": {
+        "start": { "line": 31, "column": 4 },
+        "end": { "line": 31, "column": 31 }
+      },
+      "5": {
+        "start": { "line": 34, "column": 25 },
+        "end": { "line": 39, "column": 3 }
+      },
+      "6": {
+        "start": { "line": 35, "column": 4 },
+        "end": { "line": 37, "column": 5 }
+      },
+      "7": {
+        "start": { "line": 36, "column": 6 },
+        "end": { "line": 36, "column": 42 }
+      },
+      "8": {
+        "start": { "line": 38, "column": 4 },
+        "end": { "line": 38, "column": 69 }
+      },
+      "9": {
+        "start": { "line": 40, "column": 2 },
+        "end": { "line": 63, "column": 3 }
+      },
+      "10": {
+        "start": { "line": 53, "column": 14 },
+        "end": { "line": 57, "column": 21 }
+      },
+      "11": {
+        "start": { "line": 66, "column": 0 },
+        "end": { "line": 70, "column": 1 }
+      },
+      "12": {
+        "start": { "line": 72, "column": 24 },
+        "end": { "line": 74, "column": 2 }
+      },
+      "13": {
+        "start": { "line": 77, "column": 2 },
+        "end": { "line": 80, "column": 3 }
+      },
+      "14": {
+        "start": { "line": 79, "column": 6 },
+        "end": { "line": 79, "column": 68 }
+      },
+      "15": {
+        "start": { "line": 83, "column": 20 },
+        "end": { "line": 83, "column": 64 }
+      },
+      "16": {
+        "start": { "line": 85, "column": 15 },
+        "end": { "line": 87, "column": 2 }
+      },
+      "17": {
+        "start": { "line": 91, "column": 36 },
+        "end": { "line": 91, "column": 73 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FileUploadScreen",
+        "decl": {
+          "start": { "line": 24, "column": 16 },
+          "end": { "line": 24, "column": 32 }
+        },
+        "loc": {
+          "start": { "line": 24, "column": 69 },
+          "end": { "line": 64, "column": 1 }
+        },
+        "line": 24
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 25, "column": 12 },
+          "end": { "line": 25, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 18 },
+          "end": { "line": 27, "column": 3 }
+        },
+        "line": 25
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 28, "column": 21 },
+          "end": { "line": 28, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 28, "column": 27 },
+          "end": { "line": 32, "column": 3 }
+        },
+        "line": 28
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 34, "column": 25 },
+          "end": { "line": 34, "column": 26 }
+        },
+        "loc": {
+          "start": { "line": 34, "column": 37 },
+          "end": { "line": 39, "column": 3 }
+        },
+        "line": 34
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 52, "column": 24 },
+          "end": { "line": 52, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 53, "column": 14 },
+          "end": { "line": 57, "column": 21 }
+        },
+        "line": 53
+      },
+      "5": {
+        "name": "mapDispatchToProps",
+        "decl": {
+          "start": { "line": 76, "column": 9 },
+          "end": { "line": 76, "column": 27 }
+        },
+        "loc": {
+          "start": { "line": 76, "column": 38 },
+          "end": { "line": 81, "column": 1 }
+        },
+        "line": 76
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 78, "column": 23 },
+          "end": { "line": 78, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 79, "column": 6 },
+          "end": { "line": 79, "column": 68 }
+        },
+        "line": 79
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 35, "column": 4 },
+          "end": { "line": 37, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 35, "column": 4 },
+            "end": { "line": 37, "column": 5 }
+          },
+          {
+            "start": { "line": 35, "column": 4 },
+            "end": { "line": 37, "column": 5 }
+          }
+        ],
+        "line": 35
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 38, "column": 34 },
+          "end": { "line": 38, "column": 65 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 38, "column": 60 },
+            "end": { "line": 38, "column": 61 }
+          },
+          {
+            "start": { "line": 38, "column": 64 },
+            "end": { "line": 38, "column": 65 }
+          }
+        ],
+        "line": 38
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 49, "column": 23 },
+          "end": { "line": 49, "column": 57 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 49, "column": 23 },
+            "end": { "line": 49, "column": 28 }
+          },
+          {
+            "start": { "line": 49, "column": 32 },
+            "end": { "line": 49, "column": 57 }
+          }
+        ],
+        "line": 49
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 1,
+      "10": 0,
+      "11": 2,
+      "12": 2,
+      "13": 0,
+      "14": 0,
+      "15": 2,
+      "16": 2,
+      "17": 2
+    },
+    "f": { "0": 1, "1": 1, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0 },
+    "b": { "0": [0, 0], "1": [0, 0], "2": [1, 1] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "398594713818827da3a511086b10d6952a8373f2"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/mockData.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/mockData.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 2, "column": 2 },
+        "end": { "line": 236, "column": 47 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 14 },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "3fb84cf7697d037175bf9308ea9f8cdbe844822a"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/reducer.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 10, "column": 28 },
+        "end": { "line": 12, "column": 2 }
+      },
+      "1": {
+        "start": { "line": 17, "column": 4 },
+        "end": { "line": 21, "column": 2 }
+      },
+      "2": {
+        "start": { "line": 24, "column": 39 },
+        "end": { "line": 44, "column": 4 }
+      },
+      "3": {
+        "start": { "line": 25, "column": 2 },
+        "end": { "line": 44, "column": 4 }
+      },
+      "4": {
+        "start": { "line": 26, "column": 4 },
+        "end": { "line": 43, "column": 5 }
+      },
+      "5": {
+        "start": { "line": 28, "column": 8 },
+        "end": { "line": 30, "column": 10 }
+      },
+      "6": {
+        "start": { "line": 32, "column": 8 },
+        "end": { "line": 35, "column": 10 }
+      },
+      "7": {
+        "start": { "line": 37, "column": 8 },
+        "end": { "line": 40, "column": 10 }
+      },
+      "8": {
+        "start": { "line": 42, "column": 8 },
+        "end": { "line": 42, "column": 20 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 24, "column": 39 },
+          "end": { "line": 24, "column": 40 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 2 },
+          "end": { "line": 44, "column": 4 }
+        },
+        "line": 25
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 25, "column": 17 },
+          "end": { "line": 25, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 34 },
+          "end": { "line": 44, "column": 3 }
+        },
+        "line": 25
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 24, "column": 40 },
+          "end": { "line": 24, "column": 60 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 24, "column": 48 },
+            "end": { "line": 24, "column": 60 }
+          }
+        ],
+        "line": 24
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 26, "column": 4 },
+          "end": { "line": 43, "column": 5 }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": { "line": 27, "column": 6 },
+            "end": { "line": 30, "column": 10 }
+          },
+          {
+            "start": { "line": 31, "column": 6 },
+            "end": { "line": 35, "column": 10 }
+          },
+          {
+            "start": { "line": 36, "column": 6 },
+            "end": { "line": 40, "column": 10 }
+          },
+          {
+            "start": { "line": 41, "column": 6 },
+            "end": { "line": 42, "column": 20 }
+          }
+        ],
+        "line": 26
+      }
+    },
+    "s": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 28,
+      "4": 28,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 28
+    },
+    "f": { "0": 28, "1": 28 },
+    "b": { "0": [19], "1": [0, 0, 0, 28] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "f9a028ff7aa54a6496f8d0f0028dd4861231faa1"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/saga.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/saga.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 7, "column": 32 },
+        "end": { "line": 7, "column": 53 }
+      },
+      "1": {
+        "start": { "line": 10, "column": 19 },
+        "end": { "line": 13, "column": 4 }
+      },
+      "2": {
+        "start": { "line": 14, "column": 2 },
+        "end": { "line": 18, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 15, "column": 74 }
+      },
+      "4": {
+        "start": { "line": 17, "column": 4 },
+        "end": { "line": 17, "column": 74 }
+      },
+      "5": {
+        "start": { "line": 22, "column": 2 },
+        "end": { "line": 22, "column": 54 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "uploadFileToS3",
+        "decl": {
+          "start": { "line": 9, "column": 17 },
+          "end": { "line": 9, "column": 31 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 40 },
+          "end": { "line": 19, "column": 1 }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "fileUploadScreenSaga",
+        "decl": {
+          "start": { "line": 21, "column": 25 },
+          "end": { "line": 21, "column": 45 }
+        },
+        "loc": {
+          "start": { "line": 21, "column": 48 },
+          "end": { "line": 23, "column": 1 }
+        },
+        "line": 21
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 14, "column": 2 },
+          "end": { "line": 18, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 14, "column": 2 },
+            "end": { "line": 18, "column": 3 }
+          },
+          {
+            "start": { "line": 14, "column": 2 },
+            "end": { "line": 18, "column": 3 }
+          }
+        ],
+        "line": 14
+      }
+    },
+    "s": { "0": 14, "1": 0, "2": 0, "3": 0, "4": 0, "5": 7 },
+    "f": { "0": 0, "1": 7 },
+    "b": { "0": [0, 0] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "7887f0ffb7673142e4bd84fa2bdc0a69a678916a"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/selectors.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/FileUploadScreen/selectors.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 8, "column": 37 },
+        "end": { "line": 9, "column": 43 }
+      },
+      "1": {
+        "start": { "line": 9, "column": 2 },
+        "end": { "line": 9, "column": 43 }
+      },
+      "2": {
+        "start": { "line": 19, "column": 24 },
+        "end": { "line": 20, "column": 74 }
+      },
+      "3": {
+        "start": { "line": 20, "column": 2 },
+        "end": { "line": 20, "column": 74 }
+      },
+      "4": {
+        "start": { "line": 20, "column": 59 },
+        "end": { "line": 20, "column": 73 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 8, "column": 37 },
+          "end": { "line": 8, "column": 38 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 2 },
+          "end": { "line": 9, "column": 43 }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 19, "column": 24 },
+          "end": { "line": 19, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 20, "column": 2 },
+          "end": { "line": 20, "column": 74 }
+        },
+        "line": 20
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 20, "column": 47 },
+          "end": { "line": 20, "column": 48 }
+        },
+        "loc": {
+          "start": { "line": 20, "column": 59 },
+          "end": { "line": 20, "column": 73 }
+        },
+        "line": 20
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 9, "column": 3 },
+          "end": { "line": 9, "column": 35 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 9, "column": 3 },
+            "end": { "line": 9, "column": 19 }
+          },
+          {
+            "start": { "line": 9, "column": 23 },
+            "end": { "line": 9, "column": 35 }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": { "0": 3, "1": 1, "2": 3, "3": 2, "4": 0 },
+    "f": { "0": 1, "1": 2, "2": 0 },
+    "b": { "0": [1, 0] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "a12e114412e18b906085c60b5f5e56b6fd88e055"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 33, "column": 2 },
+        "end": { "line": 35, "column": 8 }
+      },
+      "1": {
+        "start": { "line": 34, "column": 4 },
+        "end": { "line": 34, "column": 23 }
+      },
+      "2": {
+        "start": { "line": 36, "column": 31 },
+        "end": { "line": 38, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 39, "column": 19 },
+        "end": { "line": 40, "column": 49 }
+      },
+      "4": {
+        "start": { "line": 39, "column": 42 },
+        "end": { "line": 40, "column": 49 }
+      },
+      "5": {
+        "start": { "line": 40, "column": 4 },
+        "end": { "line": 40, "column": 49 }
+      },
+      "6": {
+        "start": { "line": 42, "column": 25 },
+        "end": { "line": 55, "column": 3 }
+      },
+      "7": {
+        "start": { "line": 43, "column": 4 },
+        "end": { "line": 54, "column": 6 }
+      },
+      "8": {
+        "start": { "line": 56, "column": 2 },
+        "end": { "line": 77, "column": 3 }
+      },
+      "9": {
+        "start": { "line": 80, "column": 15 },
+        "end": { "line": 88, "column": 2 }
+      },
+      "10": {
+        "start": { "line": 89, "column": 0 },
+        "end": { "line": 94, "column": 1 }
+      },
+      "11": {
+        "start": { "line": 96, "column": 24 },
+        "end": { "line": 100, "column": 2 }
+      },
+      "12": {
+        "start": { "line": 102, "column": 27 },
+        "end": { "line": 104, "column": 2 }
+      },
+      "13": {
+        "start": { "line": 102, "column": 40 },
+        "end": { "line": 104, "column": 1 }
+      },
+      "14": {
+        "start": { "line": 103, "column": 27 },
+        "end": { "line": 103, "column": 79 }
+      },
+      "15": {
+        "start": { "line": 106, "column": 20 },
+        "end": { "line": 106, "column": 64 }
+      },
+      "16": {
+        "start": { "line": 108, "column": 16 },
+        "end": { "line": 109, "column": 64 }
+      },
+      "17": {
+        "start": { "line": 109, "column": 2 },
+        "end": { "line": 109, "column": 64 }
+      },
+      "18": {
+        "start": { "line": 111, "column": 30 },
+        "end": { "line": 111, "column": 52 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "HomeScreen",
+        "decl": {
+          "start": { "line": 27, "column": 9 },
+          "end": { "line": 27, "column": 19 }
+        },
+        "loc": {
+          "start": { "line": 32, "column": 3 },
+          "end": { "line": 78, "column": 1 }
+        },
+        "line": 32
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 33, "column": 12 },
+          "end": { "line": 33, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 33, "column": 18 },
+          "end": { "line": 35, "column": 3 }
+        },
+        "line": 33
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 36, "column": 31 },
+          "end": { "line": 36, "column": 32 }
+        },
+        "loc": {
+          "start": { "line": 36, "column": 51 },
+          "end": { "line": 38, "column": 3 }
+        },
+        "line": 36
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 39, "column": 19 },
+          "end": { "line": 39, "column": 20 }
+        },
+        "loc": {
+          "start": { "line": 39, "column": 42 },
+          "end": { "line": 40, "column": 49 }
+        },
+        "line": 39
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 39, "column": 42 },
+          "end": { "line": 39, "column": 43 }
+        },
+        "loc": {
+          "start": { "line": 40, "column": 4 },
+          "end": { "line": 40, "column": 49 }
+        },
+        "line": 40
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 42, "column": 25 },
+          "end": { "line": 42, "column": 26 }
+        },
+        "loc": {
+          "start": { "line": 43, "column": 4 },
+          "end": { "line": 54, "column": 6 }
+        },
+        "line": 43
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 102, "column": 27 },
+          "end": { "line": 102, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 102, "column": 40 },
+          "end": { "line": 104, "column": 1 }
+        },
+        "line": 102
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": { "line": 103, "column": 21 },
+          "end": { "line": 103, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 103, "column": 27 },
+          "end": { "line": 103, "column": 79 }
+        },
+        "line": 103
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": { "line": 108, "column": 16 },
+          "end": { "line": 108, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 109, "column": 2 },
+          "end": { "line": 109, "column": 64 }
+        },
+        "line": 109
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 0,
+      "6": 2,
+      "7": 0,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 0,
+      "14": 0,
+      "15": 2,
+      "16": 2,
+      "17": 2,
+      "18": 2
+    },
+    "f": {
+      "0": 2,
+      "1": 2,
+      "2": 0,
+      "3": 2,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 2
+    },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "c4be3f1cf303645eddb71ca611ca851f74d9af08"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/reducer.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 8, "column": 4 },
+        "end": { "line": 13, "column": 2 }
+      },
+      "1": {
+        "start": { "line": 15, "column": 28 },
+        "end": { "line": 19, "column": 2 }
+      },
+      "2": {
+        "start": { "line": 21, "column": 38 },
+        "end": { "line": 25, "column": 35 }
+      },
+      "3": {
+        "start": { "line": 22, "column": 2 },
+        "end": { "line": 25, "column": 35 }
+      },
+      "4": {
+        "start": { "line": 27, "column": 38 },
+        "end": { "line": 31, "column": 43 }
+      },
+      "5": {
+        "start": { "line": 28, "column": 2 },
+        "end": { "line": 31, "column": 43 }
+      },
+      "6": {
+        "start": { "line": 36, "column": 36 },
+        "end": { "line": 46, "column": 4 }
+      },
+      "7": {
+        "start": { "line": 37, "column": 2 },
+        "end": { "line": 46, "column": 4 }
+      },
+      "8": {
+        "start": { "line": 38, "column": 4 },
+        "end": { "line": 45, "column": 5 }
+      },
+      "9": {
+        "start": { "line": 40, "column": 8 },
+        "end": { "line": 40, "column": 52 }
+      },
+      "10": {
+        "start": { "line": 42, "column": 8 },
+        "end": { "line": 42, "column": 52 }
+      },
+      "11": {
+        "start": { "line": 44, "column": 8 },
+        "end": { "line": 44, "column": 20 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 21, "column": 38 },
+          "end": { "line": 21, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 22, "column": 2 },
+          "end": { "line": 25, "column": 35 }
+        },
+        "line": 22
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 27, "column": 38 },
+          "end": { "line": 27, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 28, "column": 2 },
+          "end": { "line": 31, "column": 43 }
+        },
+        "line": 28
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 36, "column": 36 },
+          "end": { "line": 36, "column": 37 }
+        },
+        "loc": {
+          "start": { "line": 37, "column": 2 },
+          "end": { "line": 46, "column": 4 }
+        },
+        "line": 37
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 37, "column": 17 },
+          "end": { "line": 37, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 37, "column": 23 },
+          "end": { "line": 46, "column": 3 }
+        },
+        "line": 37
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 36, "column": 37 },
+          "end": { "line": 36, "column": 57 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 36, "column": 45 },
+            "end": { "line": 36, "column": 57 }
+          }
+        ],
+        "line": 36
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 38, "column": 4 },
+          "end": { "line": 45, "column": 5 }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": { "line": 39, "column": 6 },
+            "end": { "line": 40, "column": 52 }
+          },
+          {
+            "start": { "line": 41, "column": 6 },
+            "end": { "line": 42, "column": 52 }
+          },
+          {
+            "start": { "line": 43, "column": 6 },
+            "end": { "line": 44, "column": 20 }
+          }
+        ],
+        "line": 38
+      }
+    },
+    "s": {
+      "0": 17,
+      "1": 17,
+      "2": 17,
+      "3": 0,
+      "4": 17,
+      "5": 0,
+      "6": 17,
+      "7": 27,
+      "8": 27,
+      "9": 0,
+      "10": 0,
+      "11": 27
+    },
+    "f": { "0": 0, "1": 0, "2": 27, "3": 27 },
+    "b": { "0": [19], "1": [0, 0, 27] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "c27ca247ce5b48ea5f66fe047f6f5bc6cbca62e1"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/saga.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/saga.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 7, "column": 19 },
+        "end": { "line": 7, "column": 50 }
+      },
+      "1": {
+        "start": { "line": 9, "column": 2 },
+        "end": { "line": 22, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 14, "column": 8 },
+        "end": { "line": 14, "column": 16 }
+      },
+      "3": {
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 15, "column": 62 }
+      },
+      "4": {
+        "start": { "line": 17, "column": 4 },
+        "end": { "line": 21, "column": 5 }
+      },
+      "5": {
+        "start": { "line": 26, "column": 2 },
+        "end": { "line": 26, "column": 80 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "fetchEmployeeData",
+        "decl": {
+          "start": { "line": 6, "column": 17 },
+          "end": { "line": 6, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 37 },
+          "end": { "line": 23, "column": 1 }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "homeScreenSaga",
+        "decl": {
+          "start": { "line": 25, "column": 25 },
+          "end": { "line": 25, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 42 },
+          "end": { "line": 27, "column": 1 }
+        },
+        "line": 25
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 9, "column": 2 },
+          "end": { "line": 22, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 9, "column": 2 },
+            "end": { "line": 22, "column": 3 }
+          },
+          {
+            "start": { "line": 9, "column": 2 },
+            "end": { "line": 22, "column": 3 }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 7 },
+    "f": { "0": 0, "1": 7 },
+    "b": { "0": [0, 0] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "bb4225013e4eff815d3a1be2255e6cb4a35d3076"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/selectors.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/HomeScreen/selectors.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 5, "column": 35 },
+        "end": { "line": 6, "column": 43 }
+      },
+      "1": {
+        "start": { "line": 6, "column": 2 },
+        "end": { "line": 6, "column": 43 }
+      },
+      "2": {
+        "start": { "line": 8, "column": 34 },
+        "end": { "line": 11, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 9, "column": 2 },
+        "end": { "line": 11, "column": 3 }
+      },
+      "4": {
+        "start": { "line": 10, "column": 4 },
+        "end": { "line": 10, "column": 39 }
+      },
+      "5": {
+        "start": { "line": 13, "column": 41 },
+        "end": { "line": 16, "column": 3 }
+      },
+      "6": {
+        "start": { "line": 14, "column": 2 },
+        "end": { "line": 16, "column": 3 }
+      },
+      "7": {
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 15, "column": 46 }
+      },
+      "8": {
+        "start": { "line": 18, "column": 39 },
+        "end": { "line": 21, "column": 3 }
+      },
+      "9": {
+        "start": { "line": 19, "column": 2 },
+        "end": { "line": 21, "column": 3 }
+      },
+      "10": {
+        "start": { "line": 20, "column": 4 },
+        "end": { "line": 20, "column": 44 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 5, "column": 35 },
+          "end": { "line": 5, "column": 36 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 2 },
+          "end": { "line": 6, "column": 43 }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 8, "column": 34 },
+          "end": { "line": 8, "column": 35 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 2 },
+          "end": { "line": 11, "column": 3 }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 9, "column": 38 },
+          "end": { "line": 9, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 4 },
+          "end": { "line": 10, "column": 39 }
+        },
+        "line": 10
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 13, "column": 41 },
+          "end": { "line": 13, "column": 42 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 2 },
+          "end": { "line": 16, "column": 3 }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 14, "column": 38 },
+          "end": { "line": 14, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 15, "column": 4 },
+          "end": { "line": 15, "column": 46 }
+        },
+        "line": 15
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 18, "column": 39 },
+          "end": { "line": 18, "column": 40 }
+        },
+        "loc": {
+          "start": { "line": 19, "column": 2 },
+          "end": { "line": 21, "column": 3 }
+        },
+        "line": 19
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 19, "column": 38 },
+          "end": { "line": 19, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 20, "column": 4 },
+          "end": { "line": 20, "column": 44 }
+        },
+        "line": 20
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 6, "column": 3 },
+          "end": { "line": 6, "column": 35 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 6, "column": 3 },
+            "end": { "line": 6, "column": 19 }
+          },
+          {
+            "start": { "line": 6, "column": 23 },
+            "end": { "line": 6, "column": 35 }
+          }
+        ],
+        "line": 6
+      }
+    },
+    "s": {
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 1,
+      "5": 3,
+      "6": 3,
+      "7": 1,
+      "8": 3,
+      "9": 3,
+      "10": 1
+    },
+    "f": { "0": 3, "1": 3, "2": 1, "3": 3, "4": 1, "5": 3, "6": 1 },
+    "b": { "0": [3, 0] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "78e3e99f4e21c25d539ec1bcd0aa1ddf50584cd8"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/actions.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/actions.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 10, "column": 2 },
+        "end": { "line": 13, "column": 3 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "changeLocale",
+        "decl": {
+          "start": { "line": 9, "column": 16 },
+          "end": { "line": 9, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 45 },
+          "end": { "line": 14, "column": 1 }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1 },
+    "f": { "0": 1 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "7f58a060425fc7e9395be8091f6f4812e37a1e4b"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/constants.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/constants.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 7, "column": 29 },
+        "end": { "line": 7, "column": 63 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 16 },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "7cebb69c421a78b8ecb03fee9aed268232c34b8f"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 18, "column": 2 },
+        "end": { "line": 26, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 29, "column": 0 },
+        "end": { "line": 33, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 35, "column": 24 },
+        "end": { "line": 37, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 35, "column": 70 },
+        "end": { "line": 37, "column": 1 }
+      },
+      "4": {
+        "start": { "line": 40, "column": 2 },
+        "end": { "line": 42, "column": 3 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "LanguageProvider",
+        "decl": {
+          "start": { "line": 17, "column": 16 },
+          "end": { "line": 17, "column": 32 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 40 },
+          "end": { "line": 27, "column": 1 }
+        },
+        "line": 17
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 35, "column": 59 },
+          "end": { "line": 35, "column": 60 }
+        },
+        "loc": {
+          "start": { "line": 35, "column": 70 },
+          "end": { "line": 37, "column": 1 }
+        },
+        "line": 35
+      },
+      "2": {
+        "name": "mapDispatchToProps",
+        "decl": {
+          "start": { "line": 39, "column": 9 },
+          "end": { "line": 39, "column": 27 }
+        },
+        "loc": {
+          "start": { "line": 39, "column": 38 },
+          "end": { "line": 43, "column": 1 }
+        },
+        "line": 39
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 7, "1": 13, "2": 13, "3": 5, "4": 6 },
+    "f": { "0": 7, "1": 5, "2": 6 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "b4048e9915f84a906f761ae1b366b86d7413b289"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/reducer.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 11, "column": 28 },
+        "end": { "line": 13, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 16, "column": 32 },
+        "end": { "line": 23, "column": 4 }
+      },
+      "2": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 23, "column": 4 }
+      },
+      "3": {
+        "start": { "line": 18, "column": 4 },
+        "end": { "line": 22, "column": 5 }
+      },
+      "4": {
+        "start": { "line": 20, "column": 8 },
+        "end": { "line": 20, "column": 36 }
+      },
+      "5": {
+        "start": { "line": 21, "column": 8 },
+        "end": { "line": 21, "column": 13 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 16, "column": 32 },
+          "end": { "line": 16, "column": 33 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 2 },
+          "end": { "line": 23, "column": 4 }
+        },
+        "line": 17
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 17, "column": 17 },
+          "end": { "line": 17, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 26 },
+          "end": { "line": 23, "column": 3 }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 16, "column": 33 },
+          "end": { "line": 16, "column": 53 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 16, "column": 41 },
+            "end": { "line": 16, "column": 53 }
+          }
+        ],
+        "line": 16
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 18, "column": 4 },
+          "end": { "line": 22, "column": 5 }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": { "line": 19, "column": 6 },
+            "end": { "line": 21, "column": 13 }
+          }
+        ],
+        "line": 18
+      }
+    },
+    "s": { "0": 15, "1": 15, "2": 2, "3": 2, "4": 1, "5": 1 },
+    "f": { "0": 2, "1": 2 },
+    "b": { "0": [2], "1": [1] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "ba2732fe767260451b9255be9817fe383654fac6"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/selectors.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/LanguageProvider/selectors.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 7, "column": 23 },
+        "end": { "line": 7, "column": 62 }
+      },
+      "1": {
+        "start": { "line": 7, "column": 32 },
+        "end": { "line": 7, "column": 62 }
+      },
+      "2": {
+        "start": { "line": 13, "column": 25 },
+        "end": { "line": 14, "column": 71 }
+      },
+      "3": {
+        "start": { "line": 14, "column": 2 },
+        "end": { "line": 14, "column": 71 }
+      },
+      "4": {
+        "start": { "line": 14, "column": 50 },
+        "end": { "line": 14, "column": 70 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 7, "column": 23 },
+          "end": { "line": 7, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 32 },
+          "end": { "line": 7, "column": 62 }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 13, "column": 25 },
+          "end": { "line": 13, "column": 26 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 2 },
+          "end": { "line": 14, "column": 71 }
+        },
+        "line": 14
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 14, "column": 33 },
+          "end": { "line": 14, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 50 },
+          "end": { "line": 14, "column": 70 }
+        },
+        "line": 14
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 7, "column": 32 },
+          "end": { "line": 7, "column": 62 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 7, "column": 32 },
+            "end": { "line": 7, "column": 46 }
+          },
+          {
+            "start": { "line": 7, "column": 50 },
+            "end": { "line": 7, "column": 62 }
+          }
+        ],
+        "line": 7
+      }
+    },
+    "s": { "0": 14, "1": 8, "2": 14, "3": 13, "4": 5 },
+    "f": { "0": 8, "1": 13, "2": 5 },
+    "b": { "0": [8, 7] },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "9c56a88e33293c0c753c41e08c10ccbd4b9a583c"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/RootScreen/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/RootScreen/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 12, "column": 4 },
+        "end": { "line": 12, "column": 24 }
+      },
+      "1": {
+        "start": { "line": 15, "column": 31 },
+        "end": { "line": 17, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 16, "column": 4 },
+        "end": { "line": 16, "column": 56 }
+      },
+      "3": {
+        "start": { "line": 20, "column": 4 },
+        "end": { "line": 27, "column": 5 }
+      },
+      "4": {
+        "start": { "line": 31, "column": 0 },
+        "end": { "line": 33, "column": 1 }
+      },
+      "5": {
+        "start": { "line": 34, "column": 27 },
+        "end": { "line": 36, "column": 2 }
+      },
+      "6": {
+        "start": { "line": 34, "column": 40 },
+        "end": { "line": 36, "column": 1 }
+      },
+      "7": {
+        "start": { "line": 35, "column": 17 },
+        "end": { "line": 35, "column": 47 }
+      },
+      "8": {
+        "start": { "line": 38, "column": 20 },
+        "end": { "line": 38, "column": 53 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 11, "column": 2 },
+          "end": { "line": 11, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 22 },
+          "end": { "line": 13, "column": 3 }
+        },
+        "line": 11
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 15, "column": 31 },
+          "end": { "line": 15, "column": 32 }
+        },
+        "loc": {
+          "start": { "line": 15, "column": 47 },
+          "end": { "line": 17, "column": 3 }
+        },
+        "line": 15
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 19, "column": 2 },
+          "end": { "line": 19, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 19, "column": 11 },
+          "end": { "line": 28, "column": 3 }
+        },
+        "line": 19
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 34, "column": 27 },
+          "end": { "line": 34, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 34, "column": 40 },
+          "end": { "line": 36, "column": 1 }
+        },
+        "line": 34
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 35, "column": 11 },
+          "end": { "line": 35, "column": 12 }
+        },
+        "loc": {
+          "start": { "line": 35, "column": 17 },
+          "end": { "line": 35, "column": 47 }
+        },
+        "line": 35
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "f": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "6ee441637dd4eb5762feb3ebf216dc9f8f918403"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/RootScreen/reducer.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/RootScreen/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 3, "column": 57 },
+        "end": { "line": 6, "column": 2 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 13 },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "af59e6d5361d8144b056aab1ec2542e45638b8bc"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/RootScreen/saga.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/containers/RootScreen/saga.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 12, "column": 2 },
+        "end": { "line": 12, "column": 27 }
+      },
+      "1": {
+        "start": { "line": 13, "column": 2 },
+        "end": { "line": 13, "column": 50 }
+      },
+      "2": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 17, "column": 52 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "startup",
+        "decl": {
+          "start": { "line": 11, "column": 17 },
+          "end": { "line": 11, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 27 },
+          "end": { "line": 14, "column": 1 }
+        },
+        "line": 11
+      },
+      "1": {
+        "name": "startUpSaga",
+        "decl": {
+          "start": { "line": 16, "column": 25 },
+          "end": { "line": 16, "column": 36 }
+        },
+        "loc": {
+          "start": { "line": 16, "column": 39 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1, "1": 0, "2": 6 },
+    "f": { "0": 1, "1": 6 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "3eac4c6b1f40a2c3e00897de39728c14c699f0fb"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/graphql/mutations.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/graphql/mutations.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 4, "column": 30 },
+        "end": { "line": 17, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 18, "column": 30 },
+        "end": { "line": 31, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 32, "column": 30 },
+        "end": { "line": 45, "column": 1 }
+      },
+      "3": {
+        "start": { "line": 46, "column": 29 },
+        "end": { "line": 61, "column": 1 }
+      },
+      "4": {
+        "start": { "line": 62, "column": 29 },
+        "end": { "line": 77, "column": 1 }
+      },
+      "5": {
+        "start": { "line": 78, "column": 29 },
+        "end": { "line": 93, "column": 1 }
+      },
+      "6": {
+        "start": { "line": 94, "column": 27 },
+        "end": { "line": 105, "column": 1 }
+      },
+      "7": {
+        "start": { "line": 106, "column": 27 },
+        "end": { "line": 117, "column": 1 }
+      },
+      "8": {
+        "start": { "line": 118, "column": 27 },
+        "end": { "line": 129, "column": 1 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 15,
+      "1": 15,
+      "2": 15,
+      "3": 15,
+      "4": 15,
+      "5": 15,
+      "6": 15,
+      "7": 15,
+      "8": 15
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "05724043adad920eed855cc2ac758c13730786fd"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/graphql/queries.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/graphql/queries.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 4, "column": 27 },
+        "end": { "line": 17, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 18, "column": 29 },
+        "end": { "line": 32, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 33, "column": 26 },
+        "end": { "line": 48, "column": 1 }
+      },
+      "3": {
+        "start": { "line": 49, "column": 28 },
+        "end": { "line": 66, "column": 1 }
+      },
+      "4": {
+        "start": { "line": 67, "column": 24 },
+        "end": { "line": 78, "column": 1 }
+      },
+      "5": {
+        "start": { "line": 79, "column": 26 },
+        "end": { "line": 92, "column": 1 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 15, "1": 15, "2": 15, "3": 15, "4": 15, "5": 15 },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "88cbcb47647c31305a5a1fc0504715f403586966"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/navigators/AppNavigator.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/navigators/AppNavigator.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 16, "column": 23 },
+        "end": { "line": 28, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 29, "column": 24 },
+        "end": { "line": 51, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 35, "column": 6 },
+        "end": { "line": 48, "column": 19 }
+      },
+      "3": {
+        "start": { "line": 40, "column": 27 },
+        "end": { "line": 40, "column": 67 }
+      },
+      "4": {
+        "start": { "line": 45, "column": 27 },
+        "end": { "line": 45, "column": 73 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 34, "column": 22 },
+          "end": { "line": 34, "column": 23 }
+        },
+        "loc": {
+          "start": { "line": 35, "column": 6 },
+          "end": { "line": 48, "column": 19 }
+        },
+        "line": 35
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 40, "column": 21 },
+          "end": { "line": 40, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 40, "column": 27 },
+          "end": { "line": 40, "column": 67 }
+        },
+        "line": 40
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 45, "column": 21 },
+          "end": { "line": 45, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 45, "column": 27 },
+          "end": { "line": 45, "column": 73 }
+        },
+        "line": 45
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1, "1": 1, "2": 1, "3": 0, "4": 0 },
+    "f": { "0": 1, "1": 0, "2": 0 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "d17432b37ff12e0c105aba9e137694664ad5f18b"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/services/NavigationService.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/services/NavigationService.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 19, "column": 2 },
+        "end": { "line": 19, "column": 26 }
+      },
+      "1": {
+        "start": { "line": 29, "column": 2 },
+        "end": { "line": 34, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 47, "column": 2 },
+        "end": { "line": 58, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 62, "column": 2 },
+        "end": { "line": 62, "column": 57 }
+      },
+      "4": {
+        "start": { "line": 66, "column": 2 },
+        "end": { "line": 66, "column": 24 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "setTopLevelNavigator",
+        "decl": {
+          "start": { "line": 18, "column": 9 },
+          "end": { "line": 18, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 18, "column": 44 },
+          "end": { "line": 20, "column": 1 }
+        },
+        "line": 18
+      },
+      "1": {
+        "name": "navigate",
+        "decl": {
+          "start": { "line": 28, "column": 9 },
+          "end": { "line": 28, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 28, "column": 37 },
+          "end": { "line": 35, "column": 1 }
+        },
+        "line": 28
+      },
+      "2": {
+        "name": "navigateAndReset",
+        "decl": {
+          "start": { "line": 46, "column": 9 },
+          "end": { "line": 46, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 46, "column": 45 },
+          "end": { "line": 59, "column": 1 }
+        },
+        "line": 46
+      },
+      "3": {
+        "name": "toggleDrawer",
+        "decl": {
+          "start": { "line": 61, "column": 9 },
+          "end": { "line": 61, "column": 21 }
+        },
+        "loc": {
+          "start": { "line": 61, "column": 24 },
+          "end": { "line": 63, "column": 1 }
+        },
+        "line": 61
+      },
+      "4": {
+        "name": "goBack",
+        "decl": {
+          "start": { "line": 65, "column": 9 },
+          "end": { "line": 65, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 65, "column": 18 },
+          "end": { "line": 67, "column": 1 }
+        },
+        "line": 65
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 2, "1": 0, "2": 0, "3": 0, "4": 0 },
+    "f": { "0": 2, "1": 0, "2": 0, "3": 0, "4": 0 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "9d0992e2f7f69a9a9aa308b6f821c18d1eae53e2"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/services/UserService.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/services/UserService.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 5, "column": 28 },
+        "end": { "line": 8, "column": 5 }
+      },
+      "1": {
+        "start": { "line": 6, "column": 2 },
+        "end": { "line": 8, "column": 5 }
+      },
+      "2": {
+        "start": { "line": 6, "column": 79 },
+        "end": { "line": 8, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 10, "column": 27 },
+        "end": { "line": 13, "column": 52 }
+      },
+      "4": {
+        "start": { "line": 11, "column": 2 },
+        "end": { "line": 13, "column": 52 }
+      },
+      "5": {
+        "start": { "line": 13, "column": 17 },
+        "end": { "line": 13, "column": 50 }
+      },
+      "6": {
+        "start": { "line": 15, "column": 26 },
+        "end": { "line": 20, "column": 3 }
+      },
+      "7": {
+        "start": { "line": 16, "column": 2 },
+        "end": { "line": 20, "column": 3 }
+      },
+      "8": {
+        "start": { "line": 17, "column": 11 },
+        "end": { "line": 19, "column": 5 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 5, "column": 28 },
+          "end": { "line": 5, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 2 },
+          "end": { "line": 8, "column": 5 }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 6, "column": 72 },
+          "end": { "line": 6, "column": 73 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 79 },
+          "end": { "line": 8, "column": 3 }
+        },
+        "line": 6
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 10, "column": 27 },
+          "end": { "line": 10, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 2 },
+          "end": { "line": 13, "column": 52 }
+        },
+        "line": 11
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 13, "column": 10 },
+          "end": { "line": 13, "column": 11 }
+        },
+        "loc": {
+          "start": { "line": 13, "column": 17 },
+          "end": { "line": 13, "column": 50 }
+        },
+        "line": 13
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 15, "column": 26 },
+          "end": { "line": 15, "column": 27 }
+        },
+        "loc": {
+          "start": { "line": 16, "column": 2 },
+          "end": { "line": 20, "column": 3 }
+        },
+        "line": 16
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 17, "column": 4 },
+          "end": { "line": 17, "column": 5 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 11 },
+          "end": { "line": 19, "column": 5 }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 15,
+      "1": 0,
+      "2": 0,
+      "3": 15,
+      "4": 0,
+      "5": 0,
+      "6": 15,
+      "7": 0,
+      "8": 0
+    },
+    "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "4756a033f9b0624c54b1a9a01edcdf98cd39781d"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/colors.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/colors.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "6cc5fb5f65a47bfe586b063ff29ea20328470be5"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/fonts.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/fonts.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 4, "column": 16 },
+        "end": { "line": 6, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 4, "column": 22 },
+        "end": { "line": 6, "column": 1 }
+      },
+      "2": {
+        "start": { "line": 7, "column": 14 },
+        "end": { "line": 9, "column": 1 }
+      },
+      "3": {
+        "start": { "line": 7, "column": 20 },
+        "end": { "line": 9, "column": 1 }
+      },
+      "4": {
+        "start": { "line": 11, "column": 15 },
+        "end": { "line": 13, "column": 1 }
+      },
+      "5": {
+        "start": { "line": 11, "column": 21 },
+        "end": { "line": 13, "column": 1 }
+      },
+      "6": {
+        "start": { "line": 14, "column": 12 },
+        "end": { "line": 16, "column": 1 }
+      },
+      "7": {
+        "start": { "line": 14, "column": 18 },
+        "end": { "line": 16, "column": 1 }
+      },
+      "8": {
+        "start": { "line": 17, "column": 14 },
+        "end": { "line": 19, "column": 1 }
+      },
+      "9": {
+        "start": { "line": 17, "column": 20 },
+        "end": { "line": 19, "column": 1 }
+      },
+      "10": {
+        "start": { "line": 22, "column": 14 },
+        "end": { "line": 24, "column": 1 }
+      },
+      "11": {
+        "start": { "line": 22, "column": 20 },
+        "end": { "line": 24, "column": 1 }
+      },
+      "12": {
+        "start": { "line": 25, "column": 13 },
+        "end": { "line": 27, "column": 1 }
+      },
+      "13": {
+        "start": { "line": 25, "column": 19 },
+        "end": { "line": 27, "column": 1 }
+      },
+      "14": {
+        "start": { "line": 29, "column": 15 },
+        "end": { "line": 31, "column": 1 }
+      },
+      "15": {
+        "start": { "line": 29, "column": 21 },
+        "end": { "line": 31, "column": 1 }
+      },
+      "16": {
+        "start": { "line": 34, "column": 16 },
+        "end": { "line": 37, "column": 1 }
+      },
+      "17": {
+        "start": { "line": 34, "column": 22 },
+        "end": { "line": 37, "column": 1 }
+      },
+      "18": {
+        "start": { "line": 39, "column": 19 },
+        "end": { "line": 42, "column": 1 }
+      },
+      "19": {
+        "start": { "line": 39, "column": 25 },
+        "end": { "line": 42, "column": 1 }
+      },
+      "20": {
+        "start": { "line": 44, "column": 17 },
+        "end": { "line": 47, "column": 1 }
+      },
+      "21": {
+        "start": { "line": 44, "column": 23 },
+        "end": { "line": 47, "column": 1 }
+      },
+      "22": {
+        "start": { "line": 49, "column": 16 },
+        "end": { "line": 52, "column": 1 }
+      },
+      "23": {
+        "start": { "line": 49, "column": 22 },
+        "end": { "line": 52, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 4, "column": 16 },
+          "end": { "line": 4, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 4, "column": 22 },
+          "end": { "line": 6, "column": 1 }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 7, "column": 14 },
+          "end": { "line": 7, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 20 },
+          "end": { "line": 9, "column": 1 }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 11, "column": 15 },
+          "end": { "line": 11, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 21 },
+          "end": { "line": 13, "column": 1 }
+        },
+        "line": 11
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 14, "column": 12 },
+          "end": { "line": 14, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 18 },
+          "end": { "line": 16, "column": 1 }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 17, "column": 14 },
+          "end": { "line": 17, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 17, "column": 20 },
+          "end": { "line": 19, "column": 1 }
+        },
+        "line": 17
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 22, "column": 14 },
+          "end": { "line": 22, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 22, "column": 20 },
+          "end": { "line": 24, "column": 1 }
+        },
+        "line": 22
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 25, "column": 13 },
+          "end": { "line": 25, "column": 14 }
+        },
+        "loc": {
+          "start": { "line": 25, "column": 19 },
+          "end": { "line": 27, "column": 1 }
+        },
+        "line": 25
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": { "line": 29, "column": 15 },
+          "end": { "line": 29, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 29, "column": 21 },
+          "end": { "line": 31, "column": 1 }
+        },
+        "line": 29
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": { "line": 34, "column": 16 },
+          "end": { "line": 34, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 34, "column": 22 },
+          "end": { "line": 37, "column": 1 }
+        },
+        "line": 34
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": { "line": 39, "column": 19 },
+          "end": { "line": 39, "column": 20 }
+        },
+        "loc": {
+          "start": { "line": 39, "column": 25 },
+          "end": { "line": 42, "column": 1 }
+        },
+        "line": 39
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": { "line": 44, "column": 17 },
+          "end": { "line": 44, "column": 18 }
+        },
+        "loc": {
+          "start": { "line": 44, "column": 23 },
+          "end": { "line": 47, "column": 1 }
+        },
+        "line": 44
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": { "line": 49, "column": 16 },
+          "end": { "line": 49, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 49, "column": 22 },
+          "end": { "line": 52, "column": 1 }
+        },
+        "line": 49
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 17,
+      "1": 6,
+      "2": 17,
+      "3": 18,
+      "4": 17,
+      "5": 0,
+      "6": 17,
+      "7": 6,
+      "8": 17,
+      "9": 3,
+      "10": 17,
+      "11": 1,
+      "12": 17,
+      "13": 20,
+      "14": 17,
+      "15": 8,
+      "16": 17,
+      "17": 2,
+      "18": 17,
+      "19": 2,
+      "20": 17,
+      "21": 2,
+      "22": 17,
+      "23": 2
+    },
+    "f": {
+      "0": 6,
+      "1": 18,
+      "2": 0,
+      "3": 6,
+      "4": 3,
+      "5": 1,
+      "6": 20,
+      "7": 8,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2
+    },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "527e2fef1bee54fcc0b7b5839cd0d29e074c86ed"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/images.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/images.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "4a52aae90af2de736442aa6c56073daab0015174"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/themes/index.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "c80ad2f0edd7bb2676405badf2d900a28c4f39db"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/createStore.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/createStore.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 16, "column": 22 },
+        "end": { "line": 24, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 27, "column": 21 },
+        "end": { "line": 27, "column": 23 }
+      },
+      "2": {
+        "start": { "line": 28, "column": 20 },
+        "end": { "line": 28, "column": 22 }
+      },
+      "3": {
+        "start": { "line": 31, "column": 25 },
+        "end": { "line": 31, "column": 47 }
+      },
+      "4": {
+        "start": { "line": 32, "column": 2 },
+        "end": { "line": 32, "column": 33 }
+      },
+      "5": {
+        "start": { "line": 34, "column": 2 },
+        "end": { "line": 34, "column": 48 }
+      },
+      "6": {
+        "start": { "line": 37, "column": 27 },
+        "end": { "line": 37, "column": 69 }
+      },
+      "7": {
+        "start": { "line": 39, "column": 16 },
+        "end": { "line": 39, "column": 68 }
+      },
+      "8": {
+        "start": { "line": 40, "column": 20 },
+        "end": { "line": 40, "column": 39 }
+      },
+      "9": {
+        "start": { "line": 43, "column": 2 },
+        "end": { "line": 43, "column": 30 }
+      },
+      "10": {
+        "start": { "line": 45, "column": 2 },
+        "end": { "line": 45, "column": 29 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 26, "column": 15 },
+          "end": { "line": 26, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 26, "column": 42 },
+          "end": { "line": 46, "column": 1 }
+        },
+        "line": 26
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 13,
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 6,
+      "10": 6
+    },
+    "f": { "0": 6 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "a779583a751d1eed5fdb33b18b81c83e8b0a3815"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/index.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/index.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 3, "column": 28 },
+        "end": { "line": 6, "column": 17 }
+      },
+      "1": {
+        "start": { "line": 4, "column": 2 },
+        "end": { "line": 6, "column": 17 }
+      },
+      "2": {
+        "start": { "line": 7, "column": 23 },
+        "end": { "line": 7, "column": 76 }
+      },
+      "3": {
+        "start": { "line": 7, "column": 29 },
+        "end": { "line": 7, "column": 76 }
+      },
+      "4": {
+        "start": { "line": 7, "column": 52 },
+        "end": { "line": 7, "column": 75 }
+      },
+      "5": {
+        "start": { "line": 9, "column": 33 },
+        "end": { "line": 17, "column": 2 }
+      },
+      "6": {
+        "start": { "line": 9, "column": 42 },
+        "end": { "line": 17, "column": 1 }
+      },
+      "7": {
+        "start": { "line": 19, "column": 35 },
+        "end": { "line": 26, "column": 2 }
+      },
+      "8": {
+        "start": { "line": 19, "column": 44 },
+        "end": { "line": 26, "column": 1 }
+      },
+      "9": {
+        "start": { "line": 28, "column": 28 },
+        "end": { "line": 33, "column": 1 }
+      },
+      "10": {
+        "start": { "line": 35, "column": 29 },
+        "end": { "line": 62, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 3, "column": 28 },
+          "end": { "line": 3, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 4, "column": 2 },
+          "end": { "line": 6, "column": 17 }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 7, "column": 23 },
+          "end": { "line": 7, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 29 },
+          "end": { "line": 7, "column": 76 }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 7, "column": 41 },
+          "end": { "line": 7, "column": 42 }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 52 },
+          "end": { "line": 7, "column": 75 }
+        },
+        "line": 7
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 9, "column": 33 },
+          "end": { "line": 9, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 42 },
+          "end": { "line": 17, "column": 1 }
+        },
+        "line": 9
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 19, "column": 35 },
+          "end": { "line": 19, "column": 36 }
+        },
+        "loc": {
+          "start": { "line": 19, "column": 44 },
+          "end": { "line": 26, "column": 1 }
+        },
+        "line": 19
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 15,
+      "1": 0,
+      "2": 15,
+      "3": 1,
+      "4": 1,
+      "5": 15,
+      "6": 21,
+      "7": 15,
+      "8": 18,
+      "9": 15,
+      "10": 15
+    },
+    "f": { "0": 0, "1": 1, "2": 1, "3": 21, "4": 18 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "fde2de6fb055af558dc31cb4678679b2e1dcc7b0"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/mockResponse.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/mockResponse.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 28 },
+        "end": { "line": 155, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 1, "column": 34 },
+        "end": { "line": 155, "column": 1 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 1, "column": 28 },
+          "end": { "line": 1, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 1, "column": 34 },
+          "end": { "line": 155, "column": 1 }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 2, "1": 3 },
+    "f": { "0": 3 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "0a9d4f5364923683a7065d73c4bb21b537cd4a85"
+  },
+  "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/testUtils.js": {
+    "path": "/Users/mac/wednesday/buildops/react-graphql-template/app/utils/testUtils.js",
+    "statementMap": {
+      "0": {
+        "start": { "line": 9, "column": 23 },
+        "end": { "line": 9, "column": 76 }
+      },
+      "1": {
+        "start": { "line": 9, "column": 29 },
+        "end": { "line": 9, "column": 76 }
+      },
+      "2": {
+        "start": { "line": 9, "column": 52 },
+        "end": { "line": 9, "column": 75 }
+      },
+      "3": {
+        "start": { "line": 11, "column": 36 },
+        "end": { "line": 14, "column": 2 }
+      },
+      "4": {
+        "start": { "line": 11, "column": 51 },
+        "end": { "line": 14, "column": 1 }
+      },
+      "5": {
+        "start": { "line": 16, "column": 30 },
+        "end": { "line": 25, "column": 1 }
+      },
+      "6": {
+        "start": { "line": 17, "column": 20 },
+        "end": { "line": 17, "column": 33 }
+      },
+      "7": {
+        "start": { "line": 18, "column": 2 },
+        "end": { "line": 24, "column": 3 }
+      },
+      "8": {
+        "start": { "line": 27, "column": 30 },
+        "end": { "line": 35, "column": 3 }
+      },
+      "9": {
+        "start": { "line": 28, "column": 2 },
+        "end": { "line": 35, "column": 3 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 9, "column": 23 },
+          "end": { "line": 9, "column": 24 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 29 },
+          "end": { "line": 9, "column": 76 }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 9, "column": 41 },
+          "end": { "line": 9, "column": 42 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 52 },
+          "end": { "line": 9, "column": 75 }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 11, "column": 36 },
+          "end": { "line": 11, "column": 37 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 51 },
+          "end": { "line": 14, "column": 1 }
+        },
+        "line": 11
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 16, "column": 30 },
+          "end": { "line": 16, "column": 31 }
+        },
+        "loc": {
+          "start": { "line": 16, "column": 42 },
+          "end": { "line": 25, "column": 1 }
+        },
+        "line": 16
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 27, "column": 30 },
+          "end": { "line": 27, "column": 31 }
+        },
+        "loc": {
+          "start": { "line": 28, "column": 2 },
+          "end": { "line": 35, "column": 3 }
+        },
+        "line": 28
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 11,
+      "1": 0,
+      "2": 0,
+      "3": 11,
+      "4": 0,
+      "5": 11,
+      "6": 4,
+      "7": 4,
+      "8": 11,
+      "9": 15
+    },
+    "f": { "0": 0, "1": 0, "2": 0, "3": 4, "4": 15 },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "77370ed1083cb9d1b32a105d080504eb51fec42b"
+  }
+}

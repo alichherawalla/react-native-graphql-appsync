@@ -1,0 +1,18 @@
+projects:
+  buildopsAssignment-dev:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - app/graphql/*.*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: ap-south-1
+        apiId: 62jggrsctbf6dafvscaofh5wu4
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3

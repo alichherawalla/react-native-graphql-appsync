@@ -1,0 +1,20 @@
+{
+  "employee_details": "Employee Details",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "address": "Addresses ({length})",
+  "line_1": "Line 1 ",
+  "line_2": "Line 2",
+  "city": "City",
+  "state": "State",
+  "zipcode": "Zipcode",
+  "name": "Name",
+  "skills": "Skills ({length})",
+  "update": "Update",
+  "edit_details": "Edit Details",
+  "create_employee": "Create Employee",
+  "employee_list": "Employee List",
+  "create": "Create",
+  "pick_a_file": "Pick a file",
+  "upload_file": "Upload File"
+}

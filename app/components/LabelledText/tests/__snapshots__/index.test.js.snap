@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LabelledText /> should render and match the snapshot 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginHorizontal": 4,
+          "marginVertical": 4,
+        }
+      }
+      testID="labelled-text"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+            },
+            Object {
+              "fontSize": NaN,
+            },
+          ]
+        }
+        testID="t"
+      >
+        Employee Details
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+            },
+            Object {
+              "fontSize": NaN,
+            },
+          ]
+        }
+        testID="t"
+      >
+        something
+      </Text>
+    </View>
+  </View>
+</View>
+`;
