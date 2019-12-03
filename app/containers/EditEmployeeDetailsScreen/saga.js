@@ -1,33 +1,37 @@
-import { call, put, takeLatest } from 'redux-saga/effects'
+import { put, takeLatest } from 'redux-saga/effects'
 import get from 'lodash/get'
-import { timeout } from 'app/utils'
 import { HomeScreenActions } from 'app/containers/HomeScreen/reducer'
-import { newAddress, newEmployee } from '../../services/ApiService'
+import { apiResponseGenerator } from 'app/utils/testUtils'
+import { employeeData } from 'app/utils/mockResponse'
 import { EditEmployeeDetailsScreenTypes } from './reducer'
 
 // Individual exports for testing
-const { REQUEST_NEW_EMPLOYEE } = EditEmployeeDetailsScreenTypes
+const {
+  REQUEST_NEW_EMPLOYEE,
+  REQUEST_UPDATE_EMPLOYEE
+} = EditEmployeeDetailsScreenTypes
 
-export function* createNewEmployee(/* action */) {
-  const response = yield call(newEmployee, {
-    firstname: 'John',
-    lastname: 'Doe'
-  })
-
-  // const response = apiResponseGenerator(true, employeeData())
+export function* createNewEmployee(action) {
+  const newEmployee = { ...action.employee, id: employeeData.length }
+  employeeData.push(newEmployee)
+  const response = apiResponseGenerator(true, newEmployee)
   if (get(response, 'data')) {
-    const { data } = response
-    yield call(timeout, 1000)
+    yield put(HomeScreenActions.successGetEmployeeData(employeeData))
+  } else {
+    yield put(
+      HomeScreenActions.failureGetEmployeeData(
+        'There was an error while fetching employee information.'
+      )
+    )
+  }
+}
 
-    const response1 = yield call(newAddress, {
-      line1: '3026 Dauphine',
-      line2: 'St Ste A',
-      city: 'New Orleans',
-      state: 'LA',
-      zipcode: '70117',
-      addressEmployeeId: data.createEmployee.id
-    })
-    yield put(HomeScreenActions.successGetEmployeeData(response1))
+export function* updateEmployee(action) {
+  const eIndex = employeeData.findIndex(e => e.id === action.employee.id)
+  employeeData[eIndex] = action.employee
+  const response = apiResponseGenerator(true, eIndex)
+  if (get(response, 'data')) {
+    yield put(HomeScreenActions.successGetEmployeeData(employeeData))
   } else {
     yield put(
       HomeScreenActions.failureGetEmployeeData(
@@ -39,4 +43,5 @@ export function* createNewEmployee(/* action */) {
 
 export default function* EditEmployeeDetailsScreenSaga() {
   yield takeLatest(REQUEST_NEW_EMPLOYEE, createNewEmployee)
+  yield takeLatest(REQUEST_UPDATE_EMPLOYEE, updateEmployee)
 }

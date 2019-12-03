@@ -8,6 +8,10 @@ const small = () => css`
   font-size: 14px;
 `
 
+const medium = () => css`
+  font-size: 15px;
+`
+
 const xsmall = () => css`
   font-size: 12px;
 `
@@ -55,6 +59,7 @@ export default {
   size: {
     xsmall,
     regular,
+    medium,
     small,
     big,
     large

@@ -500,7 +500,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                 },
                 Object {
                   "color": undefined,
-                  "fontSize": 14,
+                  "fontSize": 15,
                   "fontWeight": "normal",
                 },
               ]
@@ -519,7 +519,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                   "textAlign": "left",
                 },
                 Object {
-                  "color": undefined,
+                  "color": "#808080",
                   "fontSize": 14,
                   "fontWeight": "normal",
                 },
@@ -550,7 +550,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                 },
                 Object {
                   "color": undefined,
-                  "fontSize": 14,
+                  "fontSize": 15,
                   "fontWeight": "normal",
                 },
               ]
@@ -569,7 +569,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                   "textAlign": "left",
                 },
                 Object {
-                  "color": undefined,
+                  "color": "#808080",
                   "fontSize": 14,
                   "fontWeight": "normal",
                 },

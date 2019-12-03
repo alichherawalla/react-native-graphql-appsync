@@ -25,7 +25,10 @@ function setTopLevelNavigator(navigatorRef) {
  * @param routeName The name of the route to navigate to. Routes are defined in RootScreen using createStackNavigator()
  * @param params Route parameters.
  */
-function navigate(routeName, params) {
+function navigate(routeName, params, backHandler = null) {
+  if (backHandler) {
+    navigator.backHandler = backHandler
+  }
   navigator.dispatch(
     NavigationActions.navigate({
       routeName,
@@ -64,6 +67,10 @@ function toggleDrawer() {
 
 function goBack() {
   navigator.goBack(null)
+  if (navigator.backHandler) {
+    navigator.backHandler(navigator)
+    navigator.backHandler = null
+  }
 }
 
 export default {

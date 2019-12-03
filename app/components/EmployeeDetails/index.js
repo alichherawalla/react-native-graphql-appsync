@@ -23,10 +23,9 @@ import NavigationService from 'app/services/NavigationService'
 
 function EmployeeDetails({
   intl,
-  handleEmployeeDelete,
   navigation: {
     state: {
-      params: { employee }
+      params: { employee, handleEmployeeDelete }
     }
   }
 }) {
@@ -61,7 +60,11 @@ function EmployeeDetails({
       },
       {
         type: 'delete',
-        onPress: e => handleEmployeeDelete(e)
+        onPress: () => {
+          if (handleEmployeeDelete) {
+            handleEmployeeDelete(employee)
+          }
+        }
       }
     ])
 

@@ -19,21 +19,24 @@ import PropTypes from 'prop-types'
 import isString from 'lodash/isString'
 import { getAppBarWithBack } from 'app/components/AppBar'
 import Divider from 'app/components/Divider'
-import makeSelectEditEmployeeDetailsScreen from './selectors'
+import makeSelectEditEmployeeDetailsScreen, {
+  selectEmployeeDetails
+} from './selectors'
 import { EditEmployeeDetailsScreenCreators } from './reducer'
+import NavigationService from '../../services/NavigationService'
 
 export function EditEmployeeDetailsScreen({
   intl,
   createNewEmployee,
   updateNewEmployee,
+  employeeDetails,
   navigation: {
     state: {
       params: { employee: e, isEditing }
     }
   }
 }) {
-  const [employee, setEmployee] = useState(e)
-
+  const [employee, setEmployee] = useState(employeeDetails || e)
   const handleChangeText = (index, key, property, value) => {
     const employeeClone = { ...employee }
     if (!isString(value)) {
@@ -143,6 +146,7 @@ export function EditEmployeeDetailsScreen({
           } else {
             createNewEmployee(employee)
           }
+          NavigationService.navigateAndReset('HomeScreen')
         }}
         uppercase
         mode="outlined"
@@ -153,6 +157,26 @@ export function EditEmployeeDetailsScreen({
   )
 }
 
+const employeeShape = PropTypes.shape({
+  id: PropTypes.string,
+  firstname: PropTypes.string,
+  lastname: PropTypes.string,
+  address: PropTypes.arrayOf(
+    PropTypes.shape({
+      line1: PropTypes.string,
+      line2: PropTypes.string,
+      city: PropTypes.string,
+      state: PropTypes.string,
+      zipcode: PropTypes.string
+    })
+  ),
+  skills: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      name: PropTypes.string
+    })
+  )
+})
 EditEmployeeDetailsScreen.propTypes = {
   intl: PropTypes.object,
   navigation: PropTypes.object,
@@ -160,26 +184,8 @@ EditEmployeeDetailsScreen.propTypes = {
   params: PropTypes.object,
   createNewEmployee: PropTypes.func,
   updateNewEmployee: PropTypes.func,
-  employee: PropTypes.shape({
-    id: PropTypes.string,
-    firstname: PropTypes.string,
-    lastname: PropTypes.string,
-    address: PropTypes.arrayOf(
-      PropTypes.shape({
-        line1: PropTypes.string,
-        line2: PropTypes.string,
-        city: PropTypes.string,
-        state: PropTypes.string,
-        zipcode: PropTypes.string
-      })
-    ),
-    skills: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.string,
-        name: PropTypes.string
-      })
-    )
-  }).isRequired
+  employeeDetails: employeeShape,
+  employee: employeeShape
 }
 const styles = StyleSheet.create({
   container: {
@@ -190,7 +196,8 @@ const styles = StyleSheet.create({
   }
 })
 const mapStateToProps = createStructuredSelector({
-  EditEmployeeDetailsScreen: makeSelectEditEmployeeDetailsScreen()
+  EditEmployeeDetailsScreen: makeSelectEditEmployeeDetailsScreen(),
+  employeeDetails: selectEmployeeDetails()
 })
 
 function mapDispatchToProps(dispatch) {
@@ -198,7 +205,9 @@ function mapDispatchToProps(dispatch) {
     createNewEmployee: employee =>
       dispatch(EditEmployeeDetailsScreenCreators.requestNewEmployee(employee)),
     updateNewEmployee: employee =>
-      dispatch(EditEmployeeDetailsScreenCreators.requestNewEmployee(employee))
+      dispatch(
+        EditEmployeeDetailsScreenCreators.requestUpdateEmployee(employee)
+      )
   }
 }
 

@@ -2,7 +2,7 @@ import { homeContainerReducer, initialState } from '../reducer'
 // import { someAction } from '../actions'
 
 /* eslint-disable default-case, no-param-reassign */
-describe('exampleContainerReducer', () => {
+describe('homeContainerReducer', () => {
   let state
   beforeEach(() => {
     state = initialState

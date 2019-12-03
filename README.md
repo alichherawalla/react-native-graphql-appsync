@@ -1,5 +1,22 @@
 # Builds Ops
 
+## App overview
+
+- **Multi file upload**
+    
+    The user can select the file upload option from the nav drawer.
+    
+- **Employee Details**
+
+    List, create, update and delete employees.
+
+## Demo
+
+**![Feature DEMO](docs/feature-demo.gif)**
+
+
+**![Sign In DEMO](docs/signin-demo.gif)**
+
 ## Architecture
 
 The driving goal of the architecture of the template is separation of concerns. Namely:
@@ -63,17 +80,6 @@ You also need to install the dependencies required by React Native:
 
 - for [Android development](https://facebook.github.io/react-native/docs/getting-started.html#installing-dependencies-3)
 - for [iOS development](https://facebook.github.io/react-native/docs/getting-started.html#installing-dependencies)
-
-
-## Using the template
-
-To create a new project using the template:
-
-- clone this repository
-- remove the previous git history: `yarn initialize`
-- install the npm dependencies by running `yarn`
-- rename the React Native project to your own project name: `yarn run rename -- <YourProjectName>` (the default name is `ReactNativeApplication`)
-- remove the LICENSE file and the "License" section from the README if your project is not open source
 
 
 ## Running the tests

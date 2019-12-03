@@ -19,6 +19,12 @@ const selectEditEmployeeDetailsScreenDomain = state =>
 const makeSelectEditEmployeeDetailsScreen = () =>
   createSelector(selectEditEmployeeDetailsScreenDomain, substate => substate)
 
+const selectEmployeeDetails = () =>
+  createSelector(
+    selectEditEmployeeDetailsScreenDomain,
+    substate => substate.employee
+  )
+
 export default makeSelectEditEmployeeDetailsScreen
 
-export { selectEditEmployeeDetailsScreenDomain }
+export { selectEditEmployeeDetailsScreenDomain, selectEmployeeDetails }

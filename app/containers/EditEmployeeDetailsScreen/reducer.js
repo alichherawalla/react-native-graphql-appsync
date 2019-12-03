@@ -15,10 +15,10 @@ export const {
 } = createActions({
   requestNewEmployee: ['employee'],
   successNewEmployee: ['employeeData'],
-  failureNewEmployee: ['emplyeeDataError'],
+  failureNewEmployee: ['employeeDataError'],
   requestUpdateEmployee: ['employee'],
   successUpdateEmployee: ['employeeData'],
-  failureUpdateEmployee: ['emplyeeDataError']
+  failureUpdateEmployee: ['employeeDataError']
 })
 
 /* eslint-disable default-case, no-param-reassign */

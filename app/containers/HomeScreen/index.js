@@ -28,13 +28,15 @@ function HomeScreen({
   intl,
   employeeData,
   loadingEmployeeData,
-  fetchEmployeeData
+  fetchEmployeeData,
+  dispatchRequestDeleteEmployee
 }) {
   useEffect(() => {
     fetchEmployeeData()
   }, [])
-  const handleEmployeeDelete = (/* employee */) => {
-    // place logic for delete
+  const handleEmployeeDelete = employee => {
+    dispatchRequestDeleteEmployee(employee)
+    NavigationService.navigateAndReset('HomeScreen')
   }
   const navigate = (screeName, params) => () =>
     NavigationService.navigate(screeName, params)
@@ -90,7 +92,8 @@ HomeScreen.propTypes = {
   fetchEmployeeData: PropTypes.func,
   intl: PropTypes.object,
   employeeData: PropTypes.array,
-  loadingEmployeeData: PropTypes.bool
+  loadingEmployeeData: PropTypes.bool,
+  dispatchRequestDeleteEmployee: PropTypes.func
 }
 
 const mapStateToProps = createStructuredSelector({
@@ -100,7 +103,9 @@ const mapStateToProps = createStructuredSelector({
 })
 
 const mapDispatchToProps = dispatch => ({
-  fetchEmployeeData: () => dispatch(HomeScreenActions.requestGetEmployeeData())
+  fetchEmployeeData: () => dispatch(HomeScreenActions.requestGetEmployeeData()),
+  dispatchRequestDeleteEmployee: employee =>
+    dispatch(HomeScreenActions.requestDeleteEmployee(employee))
 })
 
 const withConnect = connect(mapStateToProps, mapDispatchToProps)

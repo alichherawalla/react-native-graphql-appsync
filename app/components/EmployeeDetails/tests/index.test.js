@@ -15,7 +15,7 @@ describe('<EmployeeDetails />', () => {
   beforeEach(() => {
     props.navigation = {
       state: {
-        params: { employee: employeeData()[0] }
+        params: { employee: employeeData[0] }
       }
     }
   })

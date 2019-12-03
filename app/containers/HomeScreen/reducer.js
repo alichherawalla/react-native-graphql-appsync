@@ -9,7 +9,10 @@ export const {
   // dispatch an action to make an API request to fetch the employee data
   requestGetEmployeeData: [],
   successGetEmployeeData: ['employeeData'],
-  failureGetEmployeeData: []
+  failureGetEmployeeData: [],
+  requestDeleteEmployee: ['employee'],
+  successDeleteEmployee: [],
+  failureDeleteEmployee: []
 })
 
 export const initialState = fromJS({
@@ -39,6 +42,10 @@ export const homeContainerReducer = (state = initialState, action) =>
       case HomeScreenTypes.SUCCESS_GET_EMPLOYEE_DATA:
         return successGetEmployeeData(state, action)
       case HomeScreenTypes.FAILURE_GET_EMPLOYEE_DATA:
+        return failureGetEmployeeData(state, action)
+      case HomeScreenTypes.SUCCESS_DELETE_EMPLOYEE:
+        return successGetEmployeeData(state, action)
+      case HomeScreenTypes.FAILURE_DELETE_EMPLOYEE:
         return failureGetEmployeeData(state, action)
       default:
         return state
