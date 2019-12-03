@@ -1,6 +1,6 @@
 import { call, put, takeLatest } from 'redux-saga/effects'
 import get from 'lodash/get'
-import { getEmployees } from 'app/services/UserService'
+import { getEmployees } from 'app/services/ApiService'
 import { HomeScreenActions, HomeScreenTypes } from './reducer'
 
 export function* fetchEmployeeData() {

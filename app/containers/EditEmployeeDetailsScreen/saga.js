@@ -2,7 +2,7 @@ import { call, put, takeLatest } from 'redux-saga/effects'
 import get from 'lodash/get'
 import { timeout } from 'app/utils'
 import { HomeScreenActions } from 'app/containers/HomeScreen/reducer'
-import { newAddress, newEmployee } from '../../services/UserService'
+import { newAddress, newEmployee } from '../../services/ApiService'
 import { EditEmployeeDetailsScreenTypes } from './reducer'
 
 // Individual exports for testing
