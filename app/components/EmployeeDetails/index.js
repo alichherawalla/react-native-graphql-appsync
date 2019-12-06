@@ -6,7 +6,7 @@
  *
  */
 
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { ScrollView, StyleSheet, View } from 'react-native'
 import { List } from 'react-native-paper'
@@ -29,6 +29,8 @@ function EmployeeDetails({
     }
   }
 }) {
+  const [showSkills, setShowSkills] = useState(true)
+  const [showAddress, setShowAddress] = useState(true)
   const addresses = get(employee, 'address.items', [])
   const skills = get(employee, 'skills.items', [])
   const renderAddresses = address => (
@@ -79,6 +81,8 @@ function EmployeeDetails({
 
         <Divider />
         <List.Accordion
+          expanded={showAddress}
+          onPress={() => setShowAddress(!showAddress)}
           title={intl.formatMessage(
             { id: 'address' },
             { length: addresses.length }
@@ -89,6 +93,8 @@ function EmployeeDetails({
 
         <Divider />
         <List.Accordion
+          expanded={showSkills}
+          onPress={() => setShowSkills(!showSkills)}
           title={intl.formatMessage(
             { id: 'skills' },
             { length: skills.length }

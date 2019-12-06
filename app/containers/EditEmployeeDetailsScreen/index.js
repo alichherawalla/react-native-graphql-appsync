@@ -36,6 +36,8 @@ export function EditEmployeeDetailsScreen({
   }
 }) {
   const [employee, setEmployee] = useState(employeeDetails || e)
+  const [showSkills, setShowSkills] = useState(true)
+  const [showAddress, setShowAddress] = useState(true)
   const addresses = get(e, 'address.items', [])
   const skills = get(e, 'skills.items', [])
   const handleChangeText = (index, key, property, value) => {
@@ -117,6 +119,8 @@ export function EditEmployeeDetailsScreen({
 
         <Divider />
         <List.Accordion
+          expanded={showAddress}
+          onPress={() => setShowAddress(!showAddress)}
           title={intl.formatMessage(
             { id: 'address' },
             { length: addresses.length }
@@ -127,6 +131,8 @@ export function EditEmployeeDetailsScreen({
 
         <Divider />
         <List.Accordion
+          expanded={showSkills}
+          onPress={() => setShowSkills(!showSkills)}
           title={intl.formatMessage(
             { id: 'skills' },
             { length: skills.length }

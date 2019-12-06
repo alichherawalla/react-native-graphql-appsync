@@ -654,7 +654,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                           "fontSize": 16,
                         },
                         Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
+                          "color": "#6200ee",
                         },
                         undefined,
                       ],
@@ -706,7 +706,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                     ]
                   }
                 >
-                  
+                  
                 </Text>
               </View>
             </View>
@@ -786,7 +786,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                           "fontSize": 16,
                         },
                         Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
+                          "color": "#6200ee",
                         },
                         undefined,
                       ],
@@ -838,7 +838,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                     ]
                   }
                 >
-                  
+                  
                 </Text>
               </View>
             </View>

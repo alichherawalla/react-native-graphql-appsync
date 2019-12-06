@@ -757,7 +757,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                           "fontSize": 16,
                         },
                         Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
+                          "color": "#6200ee",
                         },
                         undefined,
                       ],
@@ -809,7 +809,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                     ]
                   }
                 >
-                  
+                  
                 </Text>
               </View>
             </View>
@@ -889,7 +889,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                           "fontSize": 16,
                         },
                         Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
+                          "color": "#6200ee",
                         },
                         undefined,
                       ],
@@ -941,7 +941,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                     ]
                   }
                 >
-                  
+                  
                 </Text>
               </View>
             </View>
