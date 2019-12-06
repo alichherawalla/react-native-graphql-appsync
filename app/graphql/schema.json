@@ -582,7 +582,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelIDFilterInput",
+                "name": "ModelIDInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -592,7 +592,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -602,7 +602,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -612,7 +612,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -622,7 +622,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -632,7 +632,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -682,7 +682,7 @@
         },
         {
           "kind": "INPUT_OBJECT",
-          "name": "ModelIDFilterInput",
+          "name": "ModelIDInput",
           "description": null,
           "fields": null,
           "inputFields": [
@@ -789,6 +789,36 @@
                 "ofType": null
               },
               "defaultValue": null
+            },
+            {
+              "name": "attributeExists",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "attributeType",
+              "description": null,
+              "type": {
+                "kind": "ENUM",
+                "name": "ModelAttributeTypes",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "size",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelSizeInput",
+                "ofType": null
+              },
+              "defaultValue": null
             }
           ],
           "interfaces": null,
@@ -796,8 +826,184 @@
           "possibleTypes": null
         },
         {
+          "kind": "SCALAR",
+          "name": "Boolean",
+          "description": "Built-in Boolean",
+          "fields": null,
+          "inputFields": null,
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "ENUM",
+          "name": "ModelAttributeTypes",
+          "description": null,
+          "fields": null,
+          "inputFields": null,
+          "interfaces": null,
+          "enumValues": [
+            {
+              "name": "binary",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "binarySet",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "bool",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "list",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "map",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "number",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "numberSet",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "string",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "stringSet",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "_null",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            }
+          ],
+          "possibleTypes": null
+        },
+        {
           "kind": "INPUT_OBJECT",
-          "name": "ModelStringFilterInput",
+          "name": "ModelSizeInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "ne",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "eq",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "le",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "lt",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "ge",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "gt",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "between",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "SCALAR",
+          "name": "Int",
+          "description": "Built-in Int",
+          "fields": null,
+          "inputFields": null,
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "ModelStringInput",
           "description": null,
           "fields": null,
           "inputFields": [
@@ -904,6 +1110,36 @@
                 "ofType": null
               },
               "defaultValue": null
+            },
+            {
+              "name": "attributeExists",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "attributeType",
+              "description": null,
+              "type": {
+                "kind": "ENUM",
+                "name": "ModelAttributeTypes",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "size",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelSizeInput",
+                "ofType": null
+              },
+              "defaultValue": null
             }
           ],
           "interfaces": null,
@@ -931,16 +1167,6 @@
               "deprecationReason": null
             }
           ],
-          "possibleTypes": null
-        },
-        {
-          "kind": "SCALAR",
-          "name": "Int",
-          "description": "Built-in Int",
-          "fields": null,
-          "inputFields": null,
-          "interfaces": null,
-          "enumValues": null,
           "possibleTypes": null
         },
         {
@@ -1048,7 +1274,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelIDFilterInput",
+                "name": "ModelIDInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -1058,7 +1284,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -1156,7 +1382,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelIDFilterInput",
+                "name": "ModelIDInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -1166,7 +1392,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -1176,7 +1402,7 @@
               "description": null,
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "ModelStringFilterInput",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -1246,6 +1472,16 @@
                     }
                   },
                   "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelEmployeeConditionInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
                 }
               ],
               "type": {
@@ -1271,6 +1507,16 @@
                       "name": "UpdateEmployeeInput",
                       "ofType": null
                     }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelEmployeeConditionInput",
+                    "ofType": null
                   },
                   "defaultValue": null
                 }
@@ -1300,6 +1546,16 @@
                     }
                   },
                   "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelEmployeeConditionInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
                 }
               ],
               "type": {
@@ -1325,6 +1581,16 @@
                       "name": "CreateAddressInput",
                       "ofType": null
                     }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelAddressConditionInput",
+                    "ofType": null
                   },
                   "defaultValue": null
                 }
@@ -1354,6 +1620,16 @@
                     }
                   },
                   "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelAddressConditionInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
                 }
               ],
               "type": {
@@ -1379,6 +1655,16 @@
                       "name": "DeleteAddressInput",
                       "ofType": null
                     }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelAddressConditionInput",
+                    "ofType": null
                   },
                   "defaultValue": null
                 }
@@ -1408,6 +1694,16 @@
                     }
                   },
                   "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelSkillConditionInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
                 }
               ],
               "type": {
@@ -1435,6 +1731,16 @@
                     }
                   },
                   "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelSkillConditionInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
                 }
               ],
               "type": {
@@ -1460,6 +1766,16 @@
                       "name": "DeleteSkillInput",
                       "ofType": null
                     }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "condition",
+                  "description": null,
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "ModelSkillConditionInput",
+                    "ofType": null
                   },
                   "defaultValue": null
                 }
@@ -1521,70 +1837,48 @@
                 }
               },
               "defaultValue": null
-            }
-          ],
-          "interfaces": null,
-          "enumValues": null,
-          "possibleTypes": null
-        },
-        {
-          "kind": "INPUT_OBJECT",
-          "name": "UpdateEmployeeInput",
-          "description": null,
-          "fields": null,
-          "inputFields": [
+            },
             {
-              "name": "id",
+              "name": "address",
               "description": null,
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
                 "ofType": {
-                  "kind": "SCALAR",
-                  "name": "ID",
-                  "ofType": null
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "INPUT_OBJECT",
+                      "name": "CreateAddressInput",
+                      "ofType": null
+                    }
+                  }
                 }
               },
               "defaultValue": null
             },
             {
-              "name": "firstname",
+              "name": "skill",
               "description": null,
               "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "lastname",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "defaultValue": null
-            }
-          ],
-          "interfaces": null,
-          "enumValues": null,
-          "possibleTypes": null
-        },
-        {
-          "kind": "INPUT_OBJECT",
-          "name": "DeleteEmployeeInput",
-          "description": null,
-          "fields": null,
-          "inputFields": [
-            {
-              "name": "id",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "ID",
-                "ofType": null
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "INPUT_OBJECT",
+                      "name": "CreateSkillInput",
+                      "ofType": null
+                    }
+                  }
+                }
               },
               "defaultValue": null
             }
@@ -1681,6 +1975,285 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "ID",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "CreateSkillInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "id",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "ID",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "description": null,
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "skillEmployeeId",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "ID",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "ModelEmployeeConditionInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "firstname",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "lastname",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "and",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ModelEmployeeConditionInput",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "or",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ModelEmployeeConditionInput",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "not",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelEmployeeConditionInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "UpdateEmployeeInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "id",
+              "description": null,
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "firstname",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "lastname",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "DeleteEmployeeInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "id",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "ID",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "ModelAddressConditionInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "line1",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "line2",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "city",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "state",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "zipcode",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "and",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ModelAddressConditionInput",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "or",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ModelAddressConditionInput",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "not",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelAddressConditionInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -1798,40 +2371,54 @@
         },
         {
           "kind": "INPUT_OBJECT",
-          "name": "CreateSkillInput",
+          "name": "ModelSkillConditionInput",
           "description": null,
           "fields": null,
           "inputFields": [
             {
-              "name": "id",
+              "name": "name",
               "description": null,
               "type": {
-                "kind": "SCALAR",
-                "name": "ID",
+                "kind": "INPUT_OBJECT",
+                "name": "ModelStringInput",
                 "ofType": null
               },
               "defaultValue": null
             },
             {
-              "name": "name",
+              "name": "and",
               "description": null,
               "type": {
-                "kind": "NON_NULL",
+                "kind": "LIST",
                 "name": null,
                 "ofType": {
-                  "kind": "SCALAR",
-                  "name": "String",
+                  "kind": "INPUT_OBJECT",
+                  "name": "ModelSkillConditionInput",
                   "ofType": null
                 }
               },
               "defaultValue": null
             },
             {
-              "name": "skillEmployeeId",
+              "name": "or",
               "description": null,
               "type": {
-                "kind": "SCALAR",
-                "name": "ID",
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ModelSkillConditionInput",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "not",
+              "description": null,
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "ModelSkillConditionInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -2028,122 +2615,7 @@
         },
         {
           "kind": "INPUT_OBJECT",
-          "name": "ModelFloatFilterInput",
-          "description": null,
-          "fields": null,
-          "inputFields": [
-            {
-              "name": "ne",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "eq",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "le",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "lt",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "ge",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "gt",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "contains",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "notContains",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Float",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "between",
-              "description": null,
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Float",
-                  "ofType": null
-                }
-              },
-              "defaultValue": null
-            }
-          ],
-          "interfaces": null,
-          "enumValues": null,
-          "possibleTypes": null
-        },
-        {
-          "kind": "SCALAR",
-          "name": "Float",
-          "description": "Built-in Float",
-          "fields": null,
-          "inputFields": null,
-          "interfaces": null,
-          "enumValues": null,
-          "possibleTypes": null
-        },
-        {
-          "kind": "INPUT_OBJECT",
-          "name": "ModelIntFilterInput",
+          "name": "ModelIntInput",
           "description": null,
           "fields": null,
           "inputFields": [
@@ -2199,26 +2671,6 @@
             },
             {
               "name": "gt",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Int",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "contains",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Int",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "notContains",
               "description": null,
               "type": {
                 "kind": "SCALAR",
@@ -2240,6 +2692,26 @@
                 }
               },
               "defaultValue": null
+            },
+            {
+              "name": "attributeExists",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "attributeType",
+              "description": null,
+              "type": {
+                "kind": "ENUM",
+                "name": "ModelAttributeTypes",
+                "ofType": null
+              },
+              "defaultValue": null
             }
           ],
           "interfaces": null,
@@ -2248,7 +2720,122 @@
         },
         {
           "kind": "INPUT_OBJECT",
-          "name": "ModelBooleanFilterInput",
+          "name": "ModelFloatInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "ne",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "eq",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "le",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "lt",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "ge",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "gt",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "between",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Float",
+                  "ofType": null
+                }
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "attributeExists",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "attributeType",
+              "description": null,
+              "type": {
+                "kind": "ENUM",
+                "name": "ModelAttributeTypes",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "SCALAR",
+          "name": "Float",
+          "description": "Built-in Float",
+          "fields": null,
+          "inputFields": null,
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "ModelBooleanInput",
           "description": null,
           "fields": null,
           "inputFields": [
@@ -2271,18 +2858,28 @@
                 "ofType": null
               },
               "defaultValue": null
+            },
+            {
+              "name": "attributeExists",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "attributeType",
+              "description": null,
+              "type": {
+                "kind": "ENUM",
+                "name": "ModelAttributeTypes",
+                "ofType": null
+              },
+              "defaultValue": null
             }
           ],
-          "interfaces": null,
-          "enumValues": null,
-          "possibleTypes": null
-        },
-        {
-          "kind": "SCALAR",
-          "name": "Boolean",
-          "description": "Built-in Boolean",
-          "fields": null,
-          "inputFields": null,
           "interfaces": null,
           "enumValues": null,
           "possibleTypes": null
@@ -3225,6 +3822,26 @@
           "onField": false
         },
         {
+          "name": "deprecated",
+          "description": null,
+          "locations": ["FIELD_DEFINITION", "ENUM_VALUE"],
+          "args": [
+            {
+              "name": "reason",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "defaultValue": "\"No longer supported\""
+            }
+          ],
+          "onOperation": false,
+          "onFragment": false,
+          "onField": false
+        },
+        {
           "name": "aws_cognito_user_pools",
           "description": "Tells the service this field/object has access authorized by a Cognito User Pools token.",
           "locations": ["OBJECT", "FIELD_DEFINITION"],
@@ -3242,26 +3859,6 @@
                 }
               },
               "defaultValue": null
-            }
-          ],
-          "onOperation": false,
-          "onFragment": false,
-          "onField": false
-        },
-        {
-          "name": "deprecated",
-          "description": null,
-          "locations": ["FIELD_DEFINITION", "ENUM_VALUE"],
-          "args": [
-            {
-              "name": "reason",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "defaultValue": "\"No longer supported\""
             }
           ],
           "onOperation": false,

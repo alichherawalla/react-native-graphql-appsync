@@ -7,7 +7,12 @@ export const getEmployee = `query GetEmployee($id: ID!) {
     firstname
     lastname
     address {
-      nextToken
+      id
+      line1
+      line2
+      city
+      state
+      zipcode
     }
     skills {
       nextToken
@@ -24,7 +29,7 @@ export const listEmployees = `query ListEmployees(
     items {
       id
       firstname
-      lastname
+      lastname 
     }
     nextToken
   }

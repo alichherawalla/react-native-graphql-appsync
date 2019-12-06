@@ -1,36 +1,24 @@
-import { put, takeLatest } from 'redux-saga/effects'
+import { call, put, takeLatest } from 'redux-saga/effects'
 import get from 'lodash/get'
-import { apiResponseGenerator } from 'app/utils/testUtils'
-import { employeeData } from 'app/utils/mockResponse'
+import { getEmployees, removeEmployee } from 'app/services/ApiService'
+import NavigationService from 'app/services/NavigationService'
 import { HomeScreenActions, HomeScreenTypes } from './reducer'
 
 export function* fetchEmployeeData() {
-  // const response = yield call(getEmployees, 10, 0)
-  const response = apiResponseGenerator(true, employeeData)
+  const response = yield call(getEmployees, 40, 0)
   if (get(response, 'data')) {
-    const { data } = response
-    yield put(HomeScreenActions.successGetEmployeeData(data))
-  } else {
     yield put(
-      HomeScreenActions.failureGetEmployeeData(
-        'There was an error while fetching employee information.'
+      HomeScreenActions.successGetEmployeeData(
+        response.data.listEmployees.items
       )
     )
   }
 }
 
 export function* deleteEmployee(action) {
-  const eIndex = employeeData.findIndex(e => e.id === action.employee.id)
-  employeeData.splice(eIndex, 1)
-  const response = apiResponseGenerator(true, eIndex)
+  const response = yield call(removeEmployee, action.employee)
   if (get(response, 'data')) {
-    yield put(HomeScreenActions.successGetEmployeeData(employeeData))
-  } else {
-    yield put(
-      HomeScreenActions.failureGetEmployeeData(
-        'There was an error while fetching employee information.'
-      )
-    )
+    NavigationService.navigateAndReset('HomeScreen')
   }
 }
 

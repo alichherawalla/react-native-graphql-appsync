@@ -1,29 +1,9 @@
+import uuid from 'uuid'
 export const employeeData = [
   {
-    id: 1,
-    firstname: 'John',
-    lastname: 'Doe',
-    address: [
-      {
-        line1: '3014 Dauphine',
-        line2: 'St Ste A',
-        city: 'New Orleans',
-        state: 'LA',
-        zipcode: '70117'
-      },
-      {
-        line1: '3020 Dauphine',
-        line2: 'St Ste A',
-        city: 'New Orleans',
-        state: 'LA',
-        zipcode: '70117'
-      }
-    ],
-    skills: [
-      { id: 1, name: 'Technician' },
-      { id: 2, name: 'Plumber' },
-      { id: 3, name: 'Electrician' }
-    ]
+    id: uuid(),
+    firstname: 'MACTESTER',
+    lastname: 'Doe'
   },
   {
     id: 2,

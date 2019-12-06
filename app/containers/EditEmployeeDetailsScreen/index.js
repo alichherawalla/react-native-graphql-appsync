@@ -23,7 +23,6 @@ import makeSelectEditEmployeeDetailsScreen, {
   selectEmployeeDetails
 } from './selectors'
 import { EditEmployeeDetailsScreenCreators } from './reducer'
-import NavigationService from '../../services/NavigationService'
 
 export function EditEmployeeDetailsScreen({
   intl,
@@ -37,13 +36,15 @@ export function EditEmployeeDetailsScreen({
   }
 }) {
   const [employee, setEmployee] = useState(employeeDetails || e)
+  const addresses = get(e, 'address.items', [])
+  const skills = get(e, 'skills.items', [])
   const handleChangeText = (index, key, property, value) => {
     const employeeClone = { ...employee }
     if (!isString(value)) {
       // if it's not a string then we need to add a new entry in the key array
-      employeeClone[key] = employeeClone[key].splice(0, 0, {})
+      employeeClone[key].items = employeeClone[key].items.splice(0, 0, {})
     } else if (key) {
-      employeeClone[key][index][property] = value
+      employeeClone[key].items[index][property] = value
     } else {
       employeeClone[property] = value
     }
@@ -118,24 +119,20 @@ export function EditEmployeeDetailsScreen({
         <List.Accordion
           title={intl.formatMessage(
             { id: 'address' },
-            { length: get(employee, 'address.length', 0) }
+            { length: addresses.length }
           )}
         >
-          <For
-            marginLeft={20}
-            of={employee.address}
-            renderItem={renderAddresses}
-          />
+          <For marginLeft={20} of={addresses} renderItem={renderAddresses} />
         </List.Accordion>
 
         <Divider />
         <List.Accordion
           title={intl.formatMessage(
             { id: 'skills' },
-            { length: get(employee, 'skills.length', 0) }
+            { length: skills.length }
           )}
         >
-          <For marginLeft={20} of={employee.skills} renderItem={renderSkills} />
+          <For marginLeft={20} of={skills} renderItem={renderSkills} />
         </List.Accordion>
       </ScrollView>
       <Button
@@ -146,7 +143,6 @@ export function EditEmployeeDetailsScreen({
           } else {
             createNewEmployee(employee)
           }
-          NavigationService.navigateAndReset('HomeScreen')
         }}
         uppercase
         mode="outlined"

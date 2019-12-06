@@ -1,8 +1,8 @@
 {
-  "identityPoolName": "buildopsassignment070faa17_identitypool_070faa17",
-  "allowUnauthenticatedIdentities": false,
-  "resourceNameTruncated": "buildo070faa17",
-  "userPoolName": "buildopsassignment070faa17_userpool_070faa17",
+  "identityPoolName": "reactgraphqltemplate0229f277_identitypool_0229f277",
+  "allowUnauthenticatedIdentities": true,
+  "resourceNameTruncated": "reactg0229f277",
+  "userPoolName": "reactgraphqltemplate0229f277_userpool_0229f277",
   "autoVerifiedAttributes": ["email"],
   "mfaConfiguration": "OFF",
   "mfaTypes": ["SMS Text Message"],
@@ -18,9 +18,9 @@
   "userpoolClientRefreshTokenValidity": 30,
   "userpoolClientWriteAttributes": ["email"],
   "userpoolClientReadAttributes": ["email"],
-  "userpoolClientLambdaRole": "buildo070faa17_userpoolclient_lambda_role",
+  "userpoolClientLambdaRole": "reactg0229f277_userpoolclient_lambda_role",
   "userpoolClientSetAttributes": false,
-  "resourceName": "buildopsassignment070faa17",
+  "resourceName": "reactgraphqltemplate0229f277",
   "authSelections": "identityPoolAndUserPool",
   "authRoleArn": {
     "Fn::GetAtt": ["AuthRole", "Arn"]

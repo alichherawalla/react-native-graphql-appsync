@@ -1,13 +1,13 @@
 {
   "auth": {
-    "buildopsassignment070faa17": {
+    "reactgraphqltemplate0229f277": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": []
     }
   },
   "storage": {
-    "FileUpload": {
+    "buildops": {
       "service": "S3",
       "providerPlugin": "awscloudformation"
     }

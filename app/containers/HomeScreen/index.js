@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { ScrollView, StyleSheet } from 'react-native'
+import { RefreshControl, ScrollView, StyleSheet } from 'react-native'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
 import { PropTypes } from 'prop-types'
@@ -11,11 +11,10 @@ import AppContainer from 'app/components/Container'
 import For from 'app/components/For'
 import NavigationService from 'app/services/NavigationService'
 import { getAppBarWithMenu } from 'app/components/AppBar'
-
 import If from 'app/components/If'
 import ProgressPlaceholder from 'app/components/ProgressPlaceholder'
 import { withAuthenticator } from 'aws-amplify-react-native'
-import { NEW_EMPLOYEE, SIGNUP_CONFIG } from 'app/utils'
+import { NEW_EMPLOYEE, SIGNUP_CONFIG, timeout } from 'app/utils'
 import { colors } from 'app/themes'
 import {
   selectEmployeeData,
@@ -31,6 +30,13 @@ function HomeScreen({
   fetchEmployeeData,
   dispatchRequestDeleteEmployee
 }) {
+  const [refreshing, setRefreshing] = React.useState(false)
+  const onRefresh = React.useCallback(() => {
+    setRefreshing(true)
+    fetchEmployeeData()
+    timeout(2000).then(() => setRefreshing(false))
+  }, [refreshing])
+
   useEffect(() => {
     fetchEmployeeData()
   }, [])
@@ -50,9 +56,9 @@ function HomeScreen({
       title={employee.firstname}
       description={`Addresses: ${get(
         employee,
-        'address.length',
+        'address.items.length',
         0
-      )}\nSkills: ${get(employee, 'skills.length', 0)}`}
+      )}\nSkills: ${get(employee, 'skills.items.length', 0)}`}
     />
   )
   return (
@@ -63,7 +69,11 @@ function HomeScreen({
           show={loadingEmployeeData}
           placeholderText="Fetching employee data"
         />
-        <ScrollView>
+        <ScrollView
+          refreshControl={
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+          }
+        >
           <If condition={!!employeeData}>
             <For of={employeeData} renderItem={renderListItem} />
           </If>
@@ -111,6 +121,7 @@ const mapDispatchToProps = dispatch => ({
 const withConnect = connect(mapStateToProps, mapDispatchToProps)
 
 const authHoC = () =>
-  withAuthenticator(HomeScreen, { signupConfig: SIGNUP_CONFIG })
-export default compose(withConnect, injectIntl, authHoC)(HomeScreen)
+  withAuthenticator(HomeScreen, { signUpConfig: SIGNUP_CONFIG })
+
 export const HomeScreenTest = injectIntl(HomeScreen)
+export default compose(withConnect, injectIntl, authHoC)(HomeScreen)

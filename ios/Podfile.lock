@@ -57,6 +57,8 @@ PODS:
     - React-cxxreact (= 0.60.6)
     - React-jsi (= 0.60.6)
   - React-jsinspector (0.60.6)
+  - react-native-netinfo (4.6.1):
+    - React
   - React-RCTActionSheet (0.60.6):
     - React-Core (= 0.60.6)
   - React-RCTAnimation (0.60.6):
@@ -102,6 +104,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -144,6 +147,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-netinfo:
+    :path: "../node_modules/@react-native-community/netinfo"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -188,6 +193,7 @@ SPEC CHECKSUMS:
   React-jsi: 1a4248256b96fa453536a8dafe11b784e24e789d
   React-jsiexecutor: 2279e559b921d02dfc6253ebef3dcb3a9dc6c07e
   React-jsinspector: a58b86545a0185f69768e78ac96ca9fe43fa3694
+  react-native-netinfo: a59d8426a8484f739fe3a95dd6ad5af1435db05f
   React-RCTActionSheet: 49f6a67a7efa6688f637296383d453b97ef13645
   React-RCTAnimation: e8047438b2927ebbe630bbf600c7309374075df3
   React-RCTBlob: 2c4b28daca5b3e6e356706d8e0c7436a0e8ef492
@@ -204,6 +210,6 @@ SPEC CHECKSUMS:
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   yoga: 5079887aa3e4c62142d6bcee493022643ee4d730
 
-PODFILE CHECKSUM: 57c368d817ba19a19484a1d701facbf97cad887c
+PODFILE CHECKSUM: 7046623ee298b7818b44d5d22807fb1225990de4
 
 COCOAPODS: 1.8.3

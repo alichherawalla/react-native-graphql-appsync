@@ -29,6 +29,8 @@ function EmployeeDetails({
     }
   }
 }) {
+  const addresses = get(employee, 'address.items', [])
+  const skills = get(employee, 'skills.items', [])
   const renderAddresses = address => (
     <View>
       <LabelledText labelId="line_1" value={get(address, 'line1', '')} />
@@ -79,24 +81,20 @@ function EmployeeDetails({
         <List.Accordion
           title={intl.formatMessage(
             { id: 'address' },
-            { length: get(employee, 'address.length', 0) }
+            { length: addresses.length }
           )}
         >
-          <For
-            marginLeft={20}
-            of={employee.address}
-            renderItem={renderAddresses}
-          />
+          <For marginLeft={20} of={addresses} renderItem={renderAddresses} />
         </List.Accordion>
 
         <Divider />
         <List.Accordion
           title={intl.formatMessage(
             { id: 'skills' },
-            { length: get(employee, 'skills.length', 0) }
+            { length: skills.length }
           )}
         >
-          <For marginLeft={20} of={employee.skills} renderItem={renderSkills} />
+          <For marginLeft={20} of={skills} renderItem={renderSkills} />
         </List.Accordion>
       </ScrollView>
     </Container>

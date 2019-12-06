@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-buildops-assignment-dev-112751-authRole",
-      "UnauthRoleArn": "arn:aws:iam::651204778228:role/amplify-buildops-assignment-dev-112751-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::651204778228:role/amplify-buildops-assignment-dev-112751-authRole",
+      "AuthRoleName": "amplify-reactgraphqltemplate-dev-164737-authRole",
+      "UnauthRoleArn": "arn:aws:iam::651204778228:role/amplify-reactgraphqltemplate-dev-164737-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::651204778228:role/amplify-reactgraphqltemplate-dev-164737-authRole",
       "Region": "ap-south-1",
-      "DeploymentBucketName": "amplify-buildops-assignment-dev-112751-deployment",
-      "UnauthRoleName": "amplify-buildops-assignment-dev-112751-unauthRole",
-      "StackName": "amplify-buildops-assignment-dev-112751",
-      "StackId": "arn:aws:cloudformation:ap-south-1:651204778228:stack/amplify-buildops-assignment-dev-112751/ad745b00-14c8-11ea-ab6c-06ee49008466",
-      "AmplifyAppId": "d2a1vujs3mwlgg"
+      "DeploymentBucketName": "amplify-reactgraphqltemplate-dev-164737-deployment",
+      "UnauthRoleName": "amplify-reactgraphqltemplate-dev-164737-unauthRole",
+      "StackName": "amplify-reactgraphqltemplate-dev-164737",
+      "StackId": "arn:aws:cloudformation:ap-south-1:651204778228:stack/amplify-reactgraphqltemplate-dev-164737/d8809770-1750-11ea-9977-0207d27cfd0c",
+      "AmplifyAppId": "d28hqyxyt09fky"
     },
     "categories": {
       "auth": {
-        "buildopsassignment070faa17": {}
+        "reactgraphqltemplate0229f277": {}
       }
     }
   }

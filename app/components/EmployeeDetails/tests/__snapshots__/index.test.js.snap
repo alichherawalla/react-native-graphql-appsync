@@ -527,7 +527,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
             }
             testID="t"
           >
-            John
+            MACTESTER
           </Text>
         </View>
         <View
@@ -661,7 +661,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                     ]
                   }
                 >
-                  Addresses (2)
+                  Addresses (0)
                 </Text>
               </View>
               <View
@@ -793,7 +793,7 @@ exports[`<EmployeeDetails /> should render and match the snapshot 1`] = `
                     ]
                   }
                 >
-                  Skills (3)
+                  Skills (0)
                 </Text>
               </View>
               <View

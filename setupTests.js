@@ -3,7 +3,13 @@ import Adapter from 'enzyme-adapter-react-16'
 import Enzyme, { shallow } from 'enzyme'
 import { IntlProvider } from 'react-intl'
 import mockAsyncStorage from '@react-native-community/async-storage/jest/async-storage-mock'
+import { NativeModules } from 'react-native'
 
+NativeModules.RNCNetInfo = {
+  getCurrentState: jest.fn(() => Promise.resolve()),
+  addListener: jest.fn(),
+  removeListeners: jest.fn()
+}
 console.disableYellowBox = true
 Enzyme.configure({ adapter: new Adapter() })
 // Create IntlProvider to retrieve React Intl context

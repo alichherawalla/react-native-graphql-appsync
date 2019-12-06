@@ -25,8 +25,8 @@ export const rnFontWeightAdapter = type => ({
 
 export const NEW_EMPLOYEE = {
   employee: {
-    address: [{}],
-    skills: [{}]
+    address: { items: [{}] },
+    skills: { items: [{}] }
   }
 }
 

@@ -460,7 +460,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                 }
                 testID="text-input"
                 underlineColorAndroid="transparent"
-                value="John"
+                value="MACTESTER"
               />
             </View>
           </View>
@@ -764,7 +764,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                     ]
                   }
                 >
-                  Addresses (2)
+                  Addresses (0)
                 </Text>
               </View>
               <View
@@ -896,7 +896,7 @@ exports[`<EditEmployeeDetailsScreen /> container tests should render and match t
                     ]
                   }
                 >
-                  Skills (3)
+                  Skills (0)
                 </Text>
               </View>
               <View
