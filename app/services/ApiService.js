@@ -14,7 +14,7 @@ import appSyncConfig from 'app/aws-exports'
 import gql from 'graphql-tag'
 import 'cross-fetch/polyfill'
 
-const client = new AWSAppSyncClient({
+export const client = new AWSAppSyncClient({
   url: appSyncConfig.aws_appsync_graphqlEndpoint,
   region: appSyncConfig.aws_appsync_region,
   auth: {

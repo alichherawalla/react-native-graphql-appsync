@@ -8,9 +8,9 @@ import Rehydrated from 'app/components/Rehydrated'
 import { View } from 'react-native'
 import createStore from 'app/rootReducer'
 import { ApolloProvider } from 'react-apollo'
-import AWSAppSyncClient from 'aws-appsync'
 import React from 'react'
 import PropTypes from 'prop-types'
+import { client } from 'app/services/ApiService'
 import { translationMessages } from './i18n'
 import RootScreen from './containers/RootScreen'
 import awsconfig from './aws-exports'
@@ -20,17 +20,6 @@ Amplify.configure(awsconfig)
 
 const { store, persistor } = createStore()
 
-const client = new AWSAppSyncClient({
-  url: awsconfig.aws_appsync_graphqlEndpoint,
-  region: awsconfig.aws_appsync_region,
-  auth: {
-    type: awsconfig.aws_appsync_authenticationType,
-    apiKey: awsconfig.aws_appsync_apiKey
-  },
-  offlineConfig: {
-    keyPrefix: 'public'
-  }
-})
 function App({ children }) {
   return (
     <Provider store={store}>

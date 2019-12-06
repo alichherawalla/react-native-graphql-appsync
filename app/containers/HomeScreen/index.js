@@ -6,6 +6,8 @@ import { PropTypes } from 'prop-types'
 import { FAB, List } from 'react-native-paper'
 import { createStructuredSelector } from 'reselect'
 import get from 'lodash/get'
+import gql from 'graphql-tag'
+import { graphql } from 'react-apollo'
 import { injectIntl } from 'react-intl'
 import AppContainer from 'app/components/Container'
 import For from 'app/components/For'
@@ -124,4 +126,33 @@ const authHoC = () =>
   withAuthenticator(HomeScreen, { signUpConfig: SIGNUP_CONFIG })
 
 export const HomeScreenTest = injectIntl(HomeScreen)
-export default compose(withConnect, injectIntl, authHoC)(HomeScreen)
+
+const H = graphql(gql`
+  query {
+    listEmployees {
+      items {
+        id
+        firstname
+        lastname
+        address {
+          items {
+            id
+            line1
+            line2
+            city
+            state
+            zipcode
+          }
+        }
+        skills {
+          items {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+`)(HomeScreen)
+
+export default compose(withConnect, injectIntl, authHoC)(H)
