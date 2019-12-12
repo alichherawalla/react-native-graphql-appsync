@@ -3,13 +3,13 @@ import get from 'lodash/get'
 import { Storage } from 'aws-amplify'
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource'
 import { fileUploadScreenCreators, fileUploadScreenTypes } from './reducer'
-import mockVideo from '../../assets/videos/mockVideo.mp4'
 
 // Individual exports for testing
 const { REQUEST_UPLOAD_FILE } = fileUploadScreenTypes
 
 export function* uploadFileToS3(action) {
-  const uri = action.fileUri || resolveAssetSource(mockVideo).uri
+  // eslint-disable-next-line
+  const uri = action.fileUri || resolveAssetSource(require('../../assets/videos/mockVideo.mp4')).uri
   const file = yield call(fetch, uri)
   // eslint-disable-next-line no-underscore-dangle
   const response = yield call(Storage.put, action.fileName, file._bodyBlob, {
