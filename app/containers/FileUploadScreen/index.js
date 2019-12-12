@@ -18,17 +18,26 @@ import For from 'app/components/For'
 import If from 'app/components/If'
 import { getAppBarWithBack } from 'app/components/AppBar'
 import Divider from 'app/components/Divider'
+import ImagePicker from 'react-native-image-picker'
 import { fileUploadScreenCreators } from './reducer'
 import { makeSelectFiles } from './selectors'
 
 export function FileUploadScreen({ intl, files, requestUploadFile }) {
+  const options = {
+    mediaType: 'video'
+  }
+
   useEffect(() => {
     uploadFile()
+    ImagePicker.showImagePicker(options, response => {
+      console.log({ response })
+      uploadFile(response.uri)
+    })
   }, [])
-  const uploadFile = () => {
-    const fileName = `essay${new Date().getTime() +
-      Math.random() * Math.random()}.txt`
-    requestUploadFile(fileName)
+  const uploadFile = (uri = null) => {
+    const fileName = `video${new Date().getTime() +
+      Math.random() * Math.random()}.mp4`
+    requestUploadFile(fileName, uri)
   }
 
   const renderListItem = fileName => {
@@ -42,7 +51,7 @@ export function FileUploadScreen({ intl, files, requestUploadFile }) {
       {getAppBarWithBack(intl.formatMessage({ id: 'upload_file' }), [
         {
           type: 'upload',
-          onPress: uploadFile
+          onPress: () => uploadFile()
         }
       ])}
       <ScrollView>
@@ -75,8 +84,8 @@ const mapStateToProps = createStructuredSelector({
 
 function mapDispatchToProps(dispatch) {
   return {
-    requestUploadFile: fileName =>
-      dispatch(fileUploadScreenCreators.requestUploadFile(fileName))
+    requestUploadFile: (fileName, fileUri) =>
+      dispatch(fileUploadScreenCreators.requestUploadFile(fileName, fileUri))
   }
 }
 

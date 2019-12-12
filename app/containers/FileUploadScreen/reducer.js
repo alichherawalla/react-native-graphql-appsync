@@ -15,7 +15,7 @@ export const {
   Types: fileUploadScreenTypes,
   Creators: fileUploadScreenCreators
 } = createActions({
-  requestUploadFile: ['fileName'],
+  requestUploadFile: ['fileName', 'fileUri'],
   successUploadFile: ['fileName'],
   failureUploadFile: ['fileName']
 })

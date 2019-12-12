@@ -1,15 +1,20 @@
 import { call, put, takeEvery } from 'redux-saga/effects'
 import get from 'lodash/get'
 import { Storage } from 'aws-amplify'
+import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource'
 import { fileUploadScreenCreators, fileUploadScreenTypes } from './reducer'
-import { mockEssay } from './mockData'
+import mockVideo from '../../assets/videos/mockVideo.mp4'
+
 // Individual exports for testing
 const { REQUEST_UPLOAD_FILE } = fileUploadScreenTypes
 
 export function* uploadFileToS3(action) {
-  const response = yield call(Storage.put, action.fileName, mockEssay, {
+  const uri = action.fileUri || resolveAssetSource(mockVideo).uri
+  const file = yield call(fetch, uri)
+  // eslint-disable-next-line no-underscore-dangle
+  const response = yield call(Storage.put, action.fileName, file._bodyBlob, {
     level: 'public',
-    contentType: 'text/plain'
+    contentType: 'video/mp4'
   })
   if (get(response, 'key')) {
     yield put(fileUploadScreenCreators.successUploadFile(action.fileName))

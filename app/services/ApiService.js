@@ -5,7 +5,9 @@ import {
   createEmployee,
   createSkill,
   deleteEmployee,
-  updateEmployee
+  updateAddress,
+  updateEmployee,
+  updateSkill
 } from 'app/graphql/mutations'
 
 import AWSAppSyncClient, { buildMutation } from 'aws-appsync'
@@ -151,7 +153,7 @@ export const putAddress = async address =>
     .mutate(
       buildMutation(
         client,
-        gql(createAddress),
+        gql(updateAddress),
         {
           inputType: gql(`input UpdateAddressInput {
             id: ID!
@@ -187,7 +189,7 @@ export const putSkill = skill =>
     .mutate(
       buildMutation(
         client,
-        gql(createSkill),
+        gql(updateSkill),
         {
           inputType: gql(`input CreateSkillInput {
                       id: ID
